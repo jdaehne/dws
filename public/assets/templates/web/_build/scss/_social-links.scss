@@ -19,13 +19,13 @@
 		justify-content: center;
 		width: 45px;
 		height: 45px;
-		background: $colorSecondary;
+		background: $colorFont;
 
 		&:hover {
 			background: $colorPrimary;
 
 			svg {
-				fill: $colorSecondary;
+				fill: $colorFont;
 			}
 		}
 	}

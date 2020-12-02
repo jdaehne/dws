@@ -7,9 +7,9 @@ $(document).ready(function() {
 	// *
 	$(window).scroll(function() {
 		if($(window).scrollTop() >= 40) {
-			$("header.main--sticky").addClass("active");
+			$(".js-header-sticky").addClass("active");
 		}else {
-			$("header.main--sticky").removeClass("active");
+			$(".js-header-sticky").removeClass("active");
 		}
 	});
 

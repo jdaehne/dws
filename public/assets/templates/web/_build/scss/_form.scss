@@ -44,7 +44,7 @@
 		background: #fff;
 		border-radius: 5px;
 		padding: 0.7em 1em;
-		color: $colorSecondary;
+		color: $colorFont;
 		font-size: 0.9rem;
 
 		&:focus {
@@ -70,7 +70,7 @@
 
 	&__message {
 		background: $colorPrimary;
-		color: $colorSecondary;
+		color: $colorFont;
 		padding: 2rem;
 		border-radius: 4px;
 		text-align: center;
@@ -126,11 +126,6 @@
 
 		a {
 			text-decoration: underline;
-		}
-
-		&Label {
-			display: block;
-			transform: translateY(6px);
 		}
 	}
 }

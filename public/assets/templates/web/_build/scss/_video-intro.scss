@@ -24,19 +24,6 @@
 		object-fit: cover;
 	}
 
-	img {
-		grid-area: main;
-		opacity: 0.8;
-		position: relative;
-		z-index: 1;
-		display: block;
-		width: 100%;
-		height: auto;
-		height: 600px;
-		max-height: 100vh;
-		object-fit: cover;
-	}
-
 	&__content {
 		grid-area: main;
 		position: relative;
@@ -74,7 +61,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			background: $colorSecondary;
+			background: $colorFont;
 			margin: 0 auto;
 			width: 70px;
 			height: 70px;
@@ -86,7 +73,7 @@
 				background: $colorPrimary;
 
 				svg {
-					fill: $colorSecondary;
+					fill: $colorFont;
 				}
 			}
 		}

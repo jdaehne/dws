@@ -17,7 +17,7 @@ var gulp = require('gulp'),
 // Static Browser:
 gulp.task('serve', ['styles'], function() {
     browserSync.init({
-        proxy: "aod.local/",
+        proxy: "dws.local/",
         notify: false
     });
 });
