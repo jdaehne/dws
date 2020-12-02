@@ -1,0 +1,10 @@
+id: 13
+key: filePrivacy
+label: 'Privacy Policy'
+xtype: modx-panel-tv-file
+description: ''
+is_required: 1
+sortorder: 30
+value: /documents/aodigy-asia-pacific-pte-ltd-external-privacy-policy-v1-24-jul-2019.pdf
+group: 2
+source: 2

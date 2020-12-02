@@ -1,0 +1,12 @@
+id: 10
+parent: 9
+parent_properties: '{"key":"subtitle","width":"100"}'
+name: Sub-Title
+description: ''
+sortorder: 10
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

@@ -1,0 +1,8 @@
+id: 2
+name: Teaser
+description: ''
+category: 1
+icon: site-cb-icon-teaser
+icon_type: custom
+content: '[{"layout":3,"content":{"main":[{"value":"","level":"h3","field":7,"settings":{}},{"rows":[{"icon":{"value":"","display":"","fieldId":"contentblocks-field-9"},"text":{"value":"","fieldId":"contentblocks-field-10"}}],"field":4,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

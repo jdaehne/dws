@@ -1,0 +1,101 @@
+id: 4
+name: header
+description: ''
+category: Template
+properties: 'a:0:{}'
+
+-----
+
+<!-- header -->
+<header class="main">
+    <div class="logo">
+        <a href="[[++site_url]]">
+            <img src="[[++project.assets_url]]img/logo.svg" alt="[[++site_name:htmlent]]">
+        </a>
+    </div>
+    <nav class="js-nav-wrapper">
+        <ul>
+            <li><a href="#about">[[%nav.about? &namespace=`site` &language=`[[++cultureKey]]`]]</a></li>
+            <li><a href="#expertise">[[%nav.expertise]]</a></li>
+            <li><a href="#delivery">[[%nav.delivery]]</a></li>
+            <li><a href="#be-an-aodigy">[[%nav.beanaodigy]]</a></li>
+            <li><a href="#giving-back">[[%nav.givingback]]</a></li>
+            <li><a href="#references">[[%nav.references]]</a></li>
+            <li><a href="#contact">[[%nav.contact]]</a></li>
+        </ul>
+    </nav>
+    <div class="header__language js-language-parent">
+        <div class="header__languageButton js-language-button">
+            <svg class="header__languageIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#world"></use></svg>
+            <span>[[++regionName]]</span>
+        </div>
+        <div class="header__languagePopup js-language-popup">
+            [[$languagePopup]]
+        </div>
+    </div>
+    <div class="mobile-menu-btn js-nav-mobile-btn">
+        <svg><use xlink:href="[[++project.assets_url]]img/sprite.svg#menu-bars"></use></svg>
+    </div>
+</header>
+
+<!-- header sticky -->
+<header class="main main--sticky">
+    <div class="logo">
+        <a href="[[++site_url]]">
+            <img src="[[++project.assets_url]]img/logo.svg" alt="">
+        </a>
+    </div>
+    <nav class="js-nav-wrapper">
+        <ul>
+            <li><a href="#about">[[%nav.about? &namespace=`site` &language=`[[++cultureKey]]`]]</a></li>
+            <li><a href="#expertise">[[%nav.expertise]]</a></li>
+            <li><a href="#delivery">[[%nav.delivery]]</a></li>
+            <li><a href="#be-an-aodigy">[[%nav.beanaodigy]]</a></li>
+            <li><a href="#giving-back">[[%nav.givingback]]</a></li>
+            <li><a href="#references">[[%nav.references]]</a></li>
+            <li><a href="#contact">[[%nav.contact]]</a></li>
+        </ul>
+    </nav>
+    <div class="header__language js-language-parent">
+        <div class="header__languageButton js-language-button">
+            <svg class="header__languageIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#world"></use></svg>
+            <span>[[++regionName]]</span>
+        </div>
+        <div class="header__languagePopup js-language-popup">
+            [[$languagePopup]]
+        </div>
+    </div>
+    <div class="mobile-menu-btn js-nav-mobile-btn">
+        <svg><use xlink:href="[[++project.assets_url]]img/sprite.svg#menu-bars"></use></svg>
+    </div>
+</header>
+
+
+<!-- nav-mobile -->
+<aside class="nav-mobile">
+   <div class="nav-mobile__btn js-nav-mobile-btn">
+       <svg>
+           <use xlink:href="[[++project.assets_url]]img/sprite.svg#menu-close"></use>
+       </svg>
+   </div>
+   <nav class="js-nav-wrapper">
+       <ul>
+           <li><a href="#about">[[%nav.about? &namespace=`site` &language=`[[++cultureKey]]`]]</a></li>
+            <li><a href="#expertise">[[%nav.expertise]]</a></li>
+            <li><a href="#delivery">[[%nav.delivery]]</a></li>
+            <li><a href="#be-an-aodigy">[[%nav.beanaodigy]]</a></li>
+            <li><a href="#giving-back">[[%nav.givingback]]</a></li>
+            <li><a href="#references">[[%nav.references]]</a></li>
+            <li><a href="#contact">[[%nav.contact]]</a></li>
+       </ul>
+   </nav>
+   <div class="header__language js-language-parent">
+        <div class="header__languageButton js-language-button">
+            <svg class="header__languageIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#world"></use></svg>
+            <span>[[++regionName]]</span>
+        </div>
+        <div class="header__languagePopup js-language-popup">
+            [[$languagePopup]]
+        </div>
+    </div>
+</aside>

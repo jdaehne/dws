@@ -1,0 +1,4 @@
+key: crosscontextssettings.core_path
+value: '{core_path}components/crosscontextssettings/'
+namespace: crosscontextssettings
+area: URL

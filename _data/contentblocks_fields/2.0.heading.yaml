@@ -1,0 +1,13 @@
+id: 2
+parent_properties: null
+input: heading
+name: Headline
+description: ''
+sortorder: 1
+category: 4
+icon: heading
+template: '<[[+level]] class="animate-in">[[+value]]</[[+level]]>'
+properties: '{"default_level":"h2","available_levels":"h2=heading_2,h3=heading_3","use_tinyrte":"0"}'
+availability: '[]'
+layouts: '2'
+settings: '[]'

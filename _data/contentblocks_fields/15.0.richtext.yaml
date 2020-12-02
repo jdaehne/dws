@@ -1,0 +1,13 @@
+id: 15
+parent_properties: null
+input: richtext
+name: Content
+description: ''
+sortorder: 8
+category: 7
+icon: richtext
+template: "<div class=\"text-block__content animate-in animate-in--translate-up animate-in--active\">\n    [[+value]]\n    [[+slogan:notempty=`<h4>[[+slogan]]</h4>`]]\n</div>"
+properties: '[]'
+availability: '[]'
+layouts: '5'
+settings: '[{"reference":"slogan","title":"Slogan","fieldtype":"textfield","default_value":"","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"","field_is_exposed":"asField"}]'

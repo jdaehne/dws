@@ -1,0 +1,13 @@
+id: 26
+parent_properties: null
+input: repeater
+name: Logos
+description: ''
+sortorder: 17
+category: 10
+icon: chunk_A
+template: "[[+idx:gt=`1`:then=`[[+idx:mod=`6`:is=`1`:then=`</div></div><div><div class=\"logoCard__inner\">`:else=``]]`:else=``]]\n\n<div class=\"logoCard\">\n    [[+logo]]\n    <a href=\"[[+image]]\" data-fancybox class=\"logoCard__overlay\">\n        <div class=\"logoCard__title\">[[+title]]</div>\n        <div class=\"logoCard__content\">[[+text:nl2br]]</div>\n    </a>\n</div>\n\n\n"
+properties: '{"wrapper_template":"<div class=\"js-logo-carousel\">\n    <div>\n        <div class=\"logoCard__inner\">\n            [[+rows]]\n        <\/div>\n    <\/div>\n<\/div>\n\n","row_separator":"","max_items":"0","min_items":"0","add_first_item":"true","manager_columns":"3","layout_style":"default"}'
+availability: '[]'
+layouts: '9'
+settings: '[]'

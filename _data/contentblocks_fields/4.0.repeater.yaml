@@ -1,0 +1,13 @@
+id: 4
+parent_properties: null
+input: repeater
+name: Teaser
+description: ''
+sortorder: 4
+category: 5
+icon: chunk_A
+template: "<div class=\"icon-teaser animate-in animate-in--scale\">\n    <div class=\"icon-teaser__icon\">\n        <svg><use xlink:href=\"[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#[[+icon]]\"></use></svg>\n    </div>\n    <div class=\"icon-teaser__text\">\n        [[+text]]\n    </div>\n</div>"
+properties: '{"wrapper_template":"<div class=\"icon-teaser__wrapper\">\n    [[+rows]]\n<\/div>","row_separator":"","max_items":"0","min_items":"0","add_first_item":"true","manager_columns":"3","layout_style":"default"}'
+availability: '[]'
+layouts: '3'
+settings: '[]'

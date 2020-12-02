@@ -1,0 +1,20 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ipcountryredirect',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fe42f3943b95aadb1863e84bef9fcfdc',
+  'package' => 'modx',
+  'class' => 'modContextSetting',
+  'signature' => '0cedb6b18647af2a7970c5c07c128e4f',
+  'native_key' => 
+  array (
+    0 => 'web',
+    1 => 'ipcr.countries',
+  ),
+  'object' => '{"context_key":"web","key":"ipcr.countries","value":"","xtype":"textfield","namespace":"ipcountryredirect","area":"","editedon":null,"name":"Redirect County-Codes","description":"Comma separated list of county-codes that match this context. Example: de,at,ch","fk":"web"}',
+);

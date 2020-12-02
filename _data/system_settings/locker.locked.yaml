@@ -1,0 +1,4 @@
+key: locker.locked
+value: '0'
+xtype: combo-boolean
+namespace: locker

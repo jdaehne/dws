@@ -1,0 +1,90 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	pagingNav
+/*
+/* --------------------------------------------------------------------------- */
+.pagingNav {
+
+    * {
+        user-select: none;
+    }
+
+    &__item {
+        position: absolute;
+        cursor: pointer;
+        top: 50%;
+        transform: translate(0,-50%);
+
+        &--prev {
+            left: 30px;
+
+            @media(max-width: 500px) {
+                left: 10px;
+            }
+        }
+
+        &--next {
+            right: 30px;
+
+            @media(max-width: 500px) {
+                right: 10px;
+            }
+        }
+
+        &--carouselPrev {
+            left: 0;
+        }
+
+        &--carouselNext {
+            right: 0;
+        }
+    }
+
+    &__icon {
+        display: block;
+        width: 15px;
+        height: 30px;
+        fill: $colorPrimary;
+    }
+
+
+
+    &__dots {
+
+        .slick-dots {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translate(-50%,0);
+            display: flex;
+            padding: 1rem .5rem;
+            background-color: #18304b;
+            border-radius: 2rem;
+
+            button {
+                text-indent: -99999px;
+                display: block;
+                background-color: $colorPrimary;
+                height: 10px;
+                width: 10px;
+                border: none;
+                border-radius: 10px;
+                padding: 0;
+                margin: 0 .5rem;
+                transition: all .3s ease;
+                overflow: hidden;
+            }
+
+            .slick-active {
+                button {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+
+    .slick-disabled {
+        opacity: 0;
+        transition: all .3s ease;
+    }
+}

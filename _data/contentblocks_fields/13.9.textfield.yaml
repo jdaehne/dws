@@ -1,0 +1,12 @@
+id: 13
+parent: 9
+parent_properties: '{"key":"process","width":"100"}'
+name: 'Progress (between 0 und 1, example: "0.5")'
+description: ''
+sortorder: 13
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"0"}'
+availability: '[]'
+layouts: null
+settings: '[]'

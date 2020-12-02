@@ -1,0 +1,13 @@
+id: 20
+parent: 18
+parent_properties: '{"key":"content","width":"100"}'
+input: textarea
+name: Content
+description: ''
+sortorder: 20
+icon: richtext
+template: '[[+value]]'
+properties: '{"use_tinyrte":"0"}'
+availability: '[]'
+layouts: null
+settings: '[]'

@@ -1,0 +1,13 @@
+id: 23
+parent_properties: null
+input: link
+name: Button
+description: ''
+sortorder: 14
+category: 9
+icon: link
+template: "<div class=\"image-text__button\">\n    <a href=\"[[+link]]\" class=\"button\">[[+text]]</a>\n</div>"
+properties: '{"link_detection_pattern_override":"","limit_to_current_context":"0"}'
+availability: '[]'
+layouts: '8'
+settings: '[{"reference":"text","title":"Title","fieldtype":"textfield","default_value":"","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"","field_is_exposed":"asField"}]'

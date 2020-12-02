@@ -1,0 +1,24 @@
+id: 21
+name: headerLanding
+description: ''
+category: Template
+properties: 'a:0:{}'
+
+-----
+
+<!-- header sticky -->
+<header class="main main--sticky main--stickyPermanent">
+    <div class="logo">
+        <a href="[[++site_url]]">
+            <img src="[[++project.assets_url]]img/logo.svg" alt="">
+        </a>
+    </div>
+    <div class="header__landing">
+        <div class="header__landingCategory">[[*landingCategory]]</div>
+        <div class="header__landingTitle">[[*landingTitle]]</div>
+    </div>
+    <a href="[[++site_url]]" class="header__landingButton">
+        <span class="header__landingButtonInner--desktop">Zurück zur Website</span>
+        <span class="header__landingButtonInner--mobile">Zurück</span>
+    </a>
+</header>

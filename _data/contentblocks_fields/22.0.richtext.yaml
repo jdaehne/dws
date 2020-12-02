@@ -1,0 +1,13 @@
+id: 22
+parent_properties: null
+input: richtext
+name: Content
+description: ''
+sortorder: 13
+category: 9
+icon: richtext
+template: "[[+value]]\n"
+properties: '[]'
+availability: '[]'
+layouts: '8'
+settings: '[]'

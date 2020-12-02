@@ -1,0 +1,9 @@
+id: 4
+key: contactZip
+label: Zipcode
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 11
+value: '189650'
+group: 2

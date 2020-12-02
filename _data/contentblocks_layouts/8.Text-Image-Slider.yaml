@@ -1,0 +1,13 @@
+id: 8
+name: Text-Image-Slider
+description: ''
+sortorder: 7
+category: 9
+icon: site-cb-text-image
+icon_type: custom
+columns: '[{"reference":"content","width":"100"},{"reference":"slider","width":"100"}]'
+template: "<div class=\"padding-top-[[+paddingTop]] padding-bottom-[[+paddingBottom]] nav-section\" [[+id:notempty=`id=\"[[+id]]\"`]]>\n    <div class=\"containerWide\">\n        <div class=\"image-text [[+order:notempty=`image-text--reverse`]]\">\n            <div class=\"image-text__slider js-slider-wrapper animate-in\">\n                [[+slider]]\n                <ul class=\"pagingNav\">\n                    <li class=\"js-slider-nav-prev pagingNav__item pagingNav__item--prev\"><svg class=\"pagingNav__icon\"><use xlink:href=\"[[++project.assets_url]]img/sprite.svg#angle-left\"></use></svg></li>\n                    <li class=\"js-slider-nav-next pagingNav__item pagingNav__item--next\"><svg class=\"pagingNav__icon\"><use xlink:href=\"[[++project.assets_url]]img/sprite.svg#angle-right\"></use></svg></li>\n                </ul>\n                <div class=\"pagingNav__dots js-slider-nav-dots\"></div>\n            </div>\n            <div style=\"background-color: [[+backgroundColor]]\" class=\"image-text__content animate-in animate-in--translate-right animate-in--active\">\n                [[+content]]\n            </div>\n        </div>\n    </div>\n</div>\n"
+availability: '[{"field":"context","value":"hidden"}]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[{"reference":"paddingTop","title":"Abstand Oben","fieldtype":"select","default_value":"0","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"0==kein Abstand\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10","field_is_exposed":"modal"},{"reference":"paddingBottom","title":"Abstand Unten","fieldtype":"select","default_value":"0","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"0==kein Abstand\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10","field_is_exposed":"modal"},{"reference":"id","title":"ID","fieldtype":"textfield","default_value":"","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"","field_is_exposed":"modal"},{"reference":"order","title":"Position Slider","fieldtype":"select","default_value":"1","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"1==Right\n0==Left","field_is_exposed":"asField"},{"reference":"backgroundColor","title":"Background-Color","fieldtype":"textfield","default_value":"#ffffff","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"","field_is_exposed":"asField"}]'

@@ -1,0 +1,13 @@
+id: 18
+parent_properties: null
+input: repeater
+name: Accordion
+description: ''
+sortorder: 11
+category: 8
+icon: chunk_A
+template: "<li class=\"accordion__item js-accordion-item\">\n    [[+content:isnot=``:then=`\n    <div class=\"accordion__button accordion__button--cursor js-accordion-button\">\n        <span>[[+title]]</span>\n        <svg class=\"accordion__icon\"><use xlink:href=\"[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#angle-down\"></use></svg>\n    </div>\n    <div class=\"accordion__content js-accordion-content\">\n        [[+content:nl2br]]\n    </div>\n    `:else=`\n    <div class=\"accordion__button\">\n        <span>[[+title]]</span>\n    </div>\n    `]]\n</li>"
+properties: '{"wrapper_template":"<ul class=\"accordion js-accordion\">\n    [[+rows]]\n<\/ul>    ","row_separator":"","max_items":"0","min_items":"0","add_first_item":"true","manager_columns":"1","layout_style":"default"}'
+availability: '[]'
+layouts: '6'
+settings: '[]'

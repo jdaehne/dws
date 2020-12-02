@@ -1,0 +1,59 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	example
+/*
+/* --------------------------------------------------------------------------- */
+.chart {
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 100px;
+		margin-bottom: 7rem;
+	}
+
+	&__circle {
+		display: grid;
+		grid-template-areas: "main";
+		align-items: center;
+		justify-items: center;
+	}
+
+	&__circle-progress {
+		grid-area: main;
+	}
+
+	&__circle-number {
+		font-size: 3.2rem;
+		letter-spacing: 0.2em;
+		grid-area: main;
+		transform: translate(0.11em, 0);
+	}
+
+	&__text {
+		margin-top: 2rem;
+		font-weight: 600;
+		letter-spacing: 0.05em;
+		text-align: center;
+
+		span {
+			display: block;
+			text-transform: uppercase;
+			font-weight: 400;
+			font-size: 0.7rem;
+		}
+	}
+
+	// responsive
+	@media only screen and (max-width: 1200px) {
+		&__wrapper {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		&__wrapper {
+			grid-template-columns: 1fr;
+		}
+	}
+}

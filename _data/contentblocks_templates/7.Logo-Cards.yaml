@@ -1,0 +1,8 @@
+id: 7
+name: Logo-Cards
+description: ''
+category: 1
+icon: site-cb-logos
+icon_type: custom
+content: '[{"layout":9,"content":{"main":[{"rows":[{"logo":{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"fieldId":"contentblocks-field-8"},"image":{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"fieldId":"contentblocks-field-9"},"title":{"value":"","fieldId":"contentblocks-field-10"},"text":{"value":"","fieldId":"contentblocks-field-11"}}],"field":26,"settings":{}}]},"settings":{"paddingTop":"3","paddingBottom":"0","id":"","title":""},"parent":0,"title":""}]'
+availability: '[]'

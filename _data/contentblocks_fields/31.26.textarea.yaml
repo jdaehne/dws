@@ -1,0 +1,13 @@
+id: 31
+parent: 26
+parent_properties: '{"key":"text","width":"100"}'
+input: textarea
+name: Overlay-Text
+description: ''
+sortorder: 31
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: ''
+layouts: null
+settings: '[]'

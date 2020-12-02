@@ -1,0 +1,11 @@
+id: 143
+set: 4
+action: resource/create
+name: alias
+description: null
+container: modx-panel-resource
+rule: fieldTitle
+value: 'Dateiname (Alias)'
+constraint_class: modResource
+for_parent: 1
+rank: 4

@@ -1,0 +1,9 @@
+id: 6
+key: contactTel
+label: Phone
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 20
+value: '+65 6935 0790'
+group: 2

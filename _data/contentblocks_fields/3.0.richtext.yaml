@@ -1,0 +1,13 @@
+id: 3
+parent_properties: null
+input: richtext
+name: Content
+description: ''
+sortorder: 2
+category: 4
+icon: richtext
+template: "<div class=\"introtext animate-in\">\n    [[+value]]\n</div>"
+properties: '[]'
+availability: '[]'
+layouts: '2'
+settings: '[]'

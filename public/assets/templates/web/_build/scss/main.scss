@@ -1,0 +1,64 @@
+ /* ==========================================================================
+ *
+ *    CSS main
+ *
+ *  ========================================================================== */
+
+
+
+/* --------------------------------------------------------------------------- */
+/*
+/*	Variables
+/*
+/* --------------------------------------------------------------------------- */
+
+// fonts
+$fontRegular: "proxima-nova", sans-serif;
+
+// colors
+$colorPrimary: #00d7ff;
+$colorSecondary: #2b2b2b;
+
+
+
+/* --------------------------------------------------------------------------- */
+/*
+/*	Vendor Imports
+/*
+/* --------------------------------------------------------------------------- */
+
+@import 'normalize';
+@import 'slick';
+@import 'fancybox';
+
+
+
+
+/* --------------------------------------------------------------------------- */
+/*
+/*	Imports
+/*
+/* --------------------------------------------------------------------------- */
+
+@import 'fonts';
+@import 'globals';
+@import 'video-intro';
+@import 'header';
+@import 'social-links';
+@import 'icon-teaser';
+@import 'charts';
+@import 'animation';
+@import 'text-block';
+@import 'check-block';
+@import 'image-text';
+@import 'contact';
+@import 'form';
+@import 'footer';
+@import 'nav-mobile';
+@import 'accordion';
+@import 'padding';
+@import 'pagingnav';
+@import 'logocard';
+@import 'worldmap';
+@import 'regionpopup';
+@import 'imagebanner';

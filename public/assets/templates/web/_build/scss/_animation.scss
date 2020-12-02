@@ -1,0 +1,62 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	animate-in
+/*
+/* --------------------------------------------------------------------------- */
+.animate-in {
+
+	opacity: 0;
+	transition: all 0.9s ease-in-out;
+
+	&--active {
+		opacity: 1;
+	}
+
+	&--scale {
+		transform: scale(0.7);
+
+		&.animate-in--active {
+			transform: scale(1);
+		}
+	}
+
+	&--translate-left {
+		transform: translate(-50px,0);
+
+		&.animate-in--active {
+			transform: translate(0);
+		}
+	}
+
+	&--translate-right {
+		transform: translate(50px,0);
+
+		&.animate-in--active {
+			transform: translate(0);
+		}
+	}
+
+	&--translate-up {
+		transform: translate(0,50px);
+
+		&.animate-in--active {
+			transform: translate(0);
+		}
+	}
+
+	&--translate-down {
+		transform: translate(0,-50px);
+
+		&.animate-in--active {
+			transform: translate(0);
+		}
+	}
+
+	&__wrapper {
+		overflow: hidden;
+	}
+
+
+	// responsive
+	@media only screen and (max-width: 900px) {}
+}

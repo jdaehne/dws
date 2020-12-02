@@ -1,0 +1,43 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	icon-teaser
+/*
+/* --------------------------------------------------------------------------- */
+.icon-teaser {
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5rem;
+		margin-bottom: 10rem;
+	}
+
+	&__icon {
+		margin-bottom: 1rem;
+		display: flex;
+		align-items: center;
+
+		svg {
+			display: block;
+			width: 80px;
+			height: 80px;
+			margin: 0 auto;
+		}
+	}
+
+	// responsive
+	@media only screen and (max-width: 900px) {
+		&__wrapper {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media only screen and (max-width: 900px) {
+		&__wrapper {
+			grid-template-columns: 1fr;
+		}
+	}
+}

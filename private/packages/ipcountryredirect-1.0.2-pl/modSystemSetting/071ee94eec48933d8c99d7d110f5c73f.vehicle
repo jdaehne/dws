@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ipcountryredirect',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f8f316a173b4fb30fa46be04c9e5a085',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '071ee94eec48933d8c99d7d110f5c73f',
+  'native_key' => 'ipcr.apikey',
+  'object' => '{"key":"ipcr.apikey","value":"","xtype":"textfield","namespace":"ipcountryredirect","area":"API","editedon":null,"name":"API-Key","description":"Optional API-Key. Get your Key at: <a href=\\"https:\\/\\/www.iplocate.io\\/\\" target=\\"_blank\\">https:\\/\\/www.iplocate.io\\/<\\/a>"}',
+);

@@ -1,0 +1,12 @@
+id: 39
+parent: 33
+parent_properties: '{"key":"fax","width":"100"}'
+name: Fax
+description: ''
+sortorder: 37
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

@@ -1,0 +1,12 @@
+id: 34
+parent: 33
+parent_properties: '{"key":"left","width":"50"}'
+name: 'X-Position (in Percent)'
+description: ''
+sortorder: 32
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

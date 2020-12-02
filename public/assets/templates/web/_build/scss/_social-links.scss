@@ -1,0 +1,45 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	social-links
+/*
+/* --------------------------------------------------------------------------- */
+.social-links {
+	position: fixed;
+	right: 0;
+	top: 30vh;
+	z-index: 200;
+
+	&__item {
+		margin-bottom: 1px;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 45px;
+		height: 45px;
+		background: $colorSecondary;
+
+		&:hover {
+			background: $colorPrimary;
+
+			svg {
+				fill: $colorSecondary;
+			}
+		}
+	}
+
+	svg {
+		display: block;
+		width: 18px;
+		height: 18px;
+		fill: $colorPrimary;
+	}
+
+
+	// responsive
+	@media only screen and (max-width: 900px) {
+		display: none;
+	}
+}

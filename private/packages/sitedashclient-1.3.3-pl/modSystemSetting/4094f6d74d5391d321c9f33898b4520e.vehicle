@@ -1,0 +1,40 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'sitedashclient',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"sitedashclient-1.3.3-pl\\/modSystemSetting\\/4094f6d74d5391d321c9f33898b4520e\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"sitedashclient"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"sitedashclient-1.3.3-pl\\/modSystemSetting\\/4094f6d74d5391d321c9f33898b4520e\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"sitedashclient"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"sitedashclient-1.3.3-pl\\/modSystemSetting\\/4094f6d74d5391d321c9f33898b4520e.sitekey.resolver.resolver","type":"php","name":"sitekey.resolver"}',
+    ),
+  ),
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"sitedashclient-1.3.3-pl\\/modSystemSetting\\/4094f6d74d5391d321c9f33898b4520e.requirements.script.validator","type":"php","name":"requirements.script"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '884fe5a9dfdf0a72c6efaae1e119ff2a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4094f6d74d5391d321c9f33898b4520e',
+  'native_key' => 'sitedashclient.php_binary',
+  'object' => '{"key":"sitedashclient.php_binary","value":"","xtype":"textfield","namespace":"sitedashclient","area":"executables","editedon":1585658304}',
+);

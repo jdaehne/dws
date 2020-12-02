@@ -1,0 +1,12 @@
+id: 30
+parent: 26
+parent_properties: '{"key":"title","width":"100"}'
+name: Overlay-Headline
+description: ''
+sortorder: 30
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

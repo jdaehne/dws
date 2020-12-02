@@ -1,0 +1,12 @@
+id: 36
+parent: 33
+parent_properties: '{"key":"location","width":"100"}'
+name: Name
+description: ''
+sortorder: 34
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

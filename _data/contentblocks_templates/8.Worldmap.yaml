@@ -1,0 +1,8 @@
+id: 8
+name: Worldmap
+description: ''
+category: 1
+icon: site-cb-worldmap
+icon_type: custom
+content: '[{"layout":10,"content":{"main":[{"rows":[{"left":{"value":"50","fieldId":"contentblocks-field-2"},"top":{"value":"50","fieldId":"contentblocks-field-3"},"location":{"value":"","fieldId":"contentblocks-field-4"},"address":{"value":"","fieldId":"contentblocks-field-5"},"tel":{"value":"","fieldId":"contentblocks-field-6"},"fax":{"value":"","fieldId":"contentblocks-field-7"},"mail":{"value":"","fieldId":"contentblocks-field-8"}}],"field":33,"settings":{}}]},"settings":{"paddingTop":"0","paddingBottom":"0","id":"","title":""},"parent":0,"title":""}]'
+availability: '[]'

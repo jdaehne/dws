@@ -1,0 +1,8 @@
+id: 1
+name: Intro-Text
+description: ''
+category: 1
+icon: site-cb-intro-text
+icon_type: custom
+content: '[{"layout":2,"content":{"main":[{"value":"","level":"h2","field":2,"settings":{}},{"value":"","field":3,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

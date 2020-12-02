@@ -1,0 +1,13 @@
+id: 24
+parent_properties: null
+input: repeater
+name: Slider
+description: ''
+sortorder: 15
+category: 9
+icon: chunk_A
+template: "<figure class=\"image-text__imageWrapper\">\n    [[+image]]\n</figure> "
+properties: '{"wrapper_template":"<div class=\"js-slider\">\n    [[+rows]]\n<\/div>","row_separator":"","max_items":"0","min_items":"0","add_first_item":"true","manager_columns":"3","layout_style":"default"}'
+availability: '[]'
+layouts: '8'
+settings: '[]'

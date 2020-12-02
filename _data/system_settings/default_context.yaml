@@ -1,0 +1,4 @@
+key: default_context
+value: emea-en
+xtype: modx-combo-context
+area: site

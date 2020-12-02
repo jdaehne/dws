@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ipcountryredirect',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '576e5becb0e5a2e0accd5d1e0610376b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '707730b139324ece882932d951dd77bf',
+  'native_key' => 'ipcr.anonymizeip',
+  'object' => '{"key":"ipcr.anonymizeip","value":"0","xtype":"combo-boolean","namespace":"ipcountryredirect","area":"Global Settings","editedon":null,"name":"IP anonymize","description":"Anonymize IP-Address"}',
+);

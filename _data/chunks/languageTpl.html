@@ -1,0 +1,15 @@
+id: 18
+source: 2
+name: languageTpl
+description: ''
+category: Template
+properties: 'a:0:{}'
+
+-----
+
+<div class="header__languageOption">
+    <span>[[+id:in=`1`:then=`Asia`:else=`Emea`]]</span>
+    <div>
+        <a class="header__languageLink js-language-button [[+active:notempty=`[[+active]]`]]" href="[[+url]]">[[+cultureKey]]</a>
+    </div>
+</div>

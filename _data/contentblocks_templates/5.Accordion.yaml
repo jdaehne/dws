@@ -1,0 +1,8 @@
+id: 5
+name: Accordion
+description: ''
+category: 1
+icon: site-cb-accordion
+icon_type: custom
+content: '[{"layout":6,"content":{"head":[{"value":"","level":"h2","field":16,"settings":{}},{"value":"","field":17,"settings":{}}],"left":[{"rows":[{"title":{"value":"","fieldId":"contentblocks-field-14"},"content":{"value":"","fieldId":"contentblocks-field-15"}}],"field":18,"settings":{}}],"right":[{"rows":[{"title":{"value":"","fieldId":"contentblocks-field-17"},"content":{"value":"","fieldId":"contentblocks-field-18"}}],"field":18,"settings":{}}]},"settings":{"paddingTop":"3","paddingBottom":"0","background":""},"parent":0,"title":""}]'
+availability: '[]'

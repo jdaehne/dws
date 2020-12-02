@@ -1,0 +1,4 @@
+key: crosscontextssettings.assets_url
+value: '{assets_url}components/crosscontextssettings/'
+namespace: crosscontextssettings
+area: URL

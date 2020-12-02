@@ -1,0 +1,7 @@
+id: 11
+key: socialLinksLinkedin
+label: Linkedin
+xtype: textfield
+description: ''
+sortorder: 20
+group: 3

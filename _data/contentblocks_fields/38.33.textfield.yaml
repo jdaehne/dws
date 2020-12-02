@@ -1,0 +1,12 @@
+id: 38
+parent: 33
+parent_properties: '{"key":"tel","width":"100"}'
+name: Phone
+description: ''
+sortorder: 36
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

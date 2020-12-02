@@ -1,0 +1,63 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	nav-mobile
+/*
+/* --------------------------------------------------------------------------- */
+.nav-mobile {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 280px;
+	background: $colorSecondary;
+	z-index: 900;
+	padding: 30px;
+	color: #fff;
+	overflow-y: scroll;
+	padding-top: 80px;
+	transform: translate(100%,0);
+	transition: all 0.4s ease-in-out;
+	font-size: 1.1rem;
+	color: #fff;
+	box-shadow: none;
+	text-transform: uppercase;
+
+
+	&.active {
+		transform: translate(0);
+		box-shadow: 0 0 5px 3px rgba(0,0,0,0.2);
+	}
+
+	ul {
+		li {
+			margin-bottom: 0.7em;
+			padding-bottom: 0.7em;
+
+			&:not(:last-child) {
+				border-bottom: 1px solid #fff;
+			}
+		}
+
+		li.active a {
+			color: $colorPrimary;
+		}
+
+	}
+
+	&__btn {
+		position: absolute;
+		right: 30px;
+		top: 30px;
+		cursor: pointer;
+
+		svg {
+			display: block;
+			width: 30px;
+			height: 30px;
+			fill: #fff;
+		}
+	}
+
+	// responsive
+	@media only screen and (max-width: 300px) {}
+}

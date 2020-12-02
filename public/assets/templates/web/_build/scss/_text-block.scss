@@ -1,0 +1,66 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	text-block
+/*
+/* --------------------------------------------------------------------------- */
+.text-block {
+	font-size: 1.2rem;
+	position: relative;
+	overflow: hidden;
+
+	&__content {
+		max-width: 720px;
+		margin: 0 auto;
+
+		h4 {
+			text-align: center;
+			font-size: 1.4rem;
+			letter-spacing: 0.15em;
+			text-transform: uppercase;
+			line-height: 1.4;
+			max-width: 500px;
+			margin: 0 auto;
+			margin-top: 2em;
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		overflow: hidden;
+		pointer-events: none;
+
+		svg {
+			display: block;
+		}
+
+		&--left {
+			left: 0;
+			top: 100px;
+
+			svg {
+				width: 282px;
+				height: 180px;
+				transform: translate(-10%,0);
+			}
+		}
+
+		&--right {
+			right: 0;
+			top: 100px;
+
+			svg {
+				width: 306px;
+				height: 225px;
+				transform: translate(5%,0);
+			}
+		}
+	}
+
+
+	// responsive
+	@media only screen and (max-width: 1300px) {
+		&__icon {
+			display: none;
+		}
+	}
+}

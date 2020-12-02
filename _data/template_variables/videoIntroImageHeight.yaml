@@ -1,0 +1,14 @@
+id: 24
+source: 2
+type: number
+name: videoIntroImageHeight
+caption: 'Höhe des Intro-Bildes'
+category: Video-Intro
+elements: ''
+rank: 32
+display: default
+default_text: ''
+properties: 'a:0:{}'
+input_properties: 'a:7:{s:10:"allowBlank";s:4:"true";s:13:"allowDecimals";s:5:"false";s:13:"allowNegative";s:5:"false";s:16:"decimalPrecision";s:1:"0";s:16:"decimalSeparator";s:1:".";s:8:"maxValue";s:0:"";s:8:"minValue";s:0:"";}'
+output_properties: 'a:3:{s:14:"phpThumbParams";s:12:"w=2000&f=jpg";s:11:"outputChunk";s:0:"";s:11:"generateUrl";s:4:"true";}'
+content: ''

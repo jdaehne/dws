@@ -1,0 +1,30 @@
+id: 16
+source: 2
+name: contactEmailTpl
+description: ''
+category: Contact
+properties: 'a:0:{}'
+
+-----
+
+<p>You received the following E-mail from your website ([[++site_name]] - [[++site_url]]):</p>
+
+<p>
+    <strong>Contact</strong><br>
+    Company: [[+company]]<br>
+    Name: [[+firstname]] [[+lastname]]<br>
+    Jobtitle: [[+job]]<br>
+    E-mail: [[+email]]<br>
+    Phone: [[+tel]]<br>
+    Employees: [[+employees]]<br>
+    Country: [[+country]]
+</p>
+
+<p>
+    [[+offer:notempty=`[[%form.offer? &namespace=`site` &language=`[[++cultureKey]]`]]<br>`]]
+    [[+demo:notempty=`[[%form.demo]]`]]
+</p>
+
+<p>
+    [[+message:nl2br]]
+</p>

@@ -1,0 +1,13 @@
+id: 5
+parent: 4
+parent_properties: '{"key":"icon","width":"100"}'
+input: dropdown
+name: Icon
+description: ''
+sortorder: 5
+icon: paragraph
+template: '[[+value]]'
+properties: '{"options":"c-phone==Phone\nc-chart==Chart\nc-connect==Connect\nc-eye==Eye\nc-search==Search\nc-settings==Setting","default_value":""}'
+availability: '[]'
+layouts: null
+settings: '[]'

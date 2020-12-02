@@ -1,0 +1,13 @@
+id: 29
+parent: 26
+parent_properties: '{"key":"image","width":"100"}'
+input: image_with_title
+name: Popup-Image
+description: ''
+sortorder: 33
+icon: image
+template: '[[+crops.standard.url]]'
+properties: '{"source":"0","directory":"bilder\/","crop_directory":"crops\/","crops":"standard:width=1200","open_crops_automatically":"1","file_types":"png,gif,jpg,jpeg,svg","thumbnail_size":"0","thumbnail_crop":"standard","use_tinyrte":"0"}'
+availability: '[]'
+layouts: null
+settings: '[]'

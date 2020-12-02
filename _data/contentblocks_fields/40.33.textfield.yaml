@@ -1,0 +1,12 @@
+id: 40
+parent: 33
+parent_properties: '{"key":"mail","width":"100"}'
+name: E-mail
+description: ''
+sortorder: 38
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

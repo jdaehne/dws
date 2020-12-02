@@ -1,0 +1,13 @@
+id: 6
+parent: 4
+parent_properties: '{"key":"text","width":"100"}'
+input: textarea
+name: Text
+description: ''
+sortorder: 6
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: ''
+layouts: null
+settings: '[]'

@@ -1,0 +1,136 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	form
+/*
+/* --------------------------------------------------------------------------- */
+.form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	max-width: 680px;
+	margin: 0 auto;
+
+	&__field {
+
+		&:focus-within {
+			color: $colorPrimary;
+		}
+
+		&--big {
+			grid-column: 1 / -1;
+		}
+
+		&.error {
+			color: red;
+		}
+	}
+
+	&__label {
+		display: block;
+		text-transform: uppercase;
+		font-size: 0.7rem;
+		margin-bottom: 0.1em;
+		transition: color 0.4s ease-in-out;
+	}
+
+	input,
+	textarea,
+	select {
+		appearance: none;
+		display: block;
+		width: 100%;
+		height: 50px;
+		border: 0;
+		background: #fff;
+		border-radius: 5px;
+		padding: 0.7em 1em;
+		color: $colorSecondary;
+		font-size: 0.9rem;
+
+		&:focus {
+			outline: none;
+		}
+
+		&::placeholder {
+			color: #ababab;
+			font-size: 0.7rem;
+		}
+	}
+
+	textarea {
+		resize: none;
+		height: 175px;
+	}
+
+	&__button {
+		grid-column: 1 / -1;
+		text-align: center;
+		padding-top: 1rem;
+	}
+
+	&__message {
+		background: $colorPrimary;
+		color: $colorSecondary;
+		padding: 2rem;
+		border-radius: 4px;
+		text-align: center;
+	}
+
+
+	// responsive
+	@media only screen and (max-width: 500px) {
+		grid-template-columns: 1fr;
+	}
+
+	&__checkbox {
+		padding-left: 2.5rem;
+		position: relative;
+		font-size: .67rem;
+		max-width: 380px;
+
+		label {
+			cursor: pointer;
+		}
+
+		input[type=checkbox] {
+			display: none;
+
+			+ i {
+				display: inline-block;
+				width: 24px;
+				height: 24px;
+				background-color: #fff;
+				border-radius: 4px;
+				cursor: pointer;
+				position: absolute;
+				left: 0;
+				top: .2em;
+			}
+		}
+
+		&Icon {
+			display: block;
+			width: 15px;
+			height: 15px;
+			fill: $colorPrimary;
+			position: absolute;
+			left: 5px;
+			top: 7px;
+			transition: all .3s ease;
+			opacity: 0;
+		}
+
+		input[type=checkbox]:checked + i + &Icon {
+			opacity: 1;
+		}
+
+		a {
+			text-decoration: underline;
+		}
+
+		&Label {
+			display: block;
+			transform: translateY(6px);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+id: 11
+parent: 9
+parent_properties: '{"key":"title","width":"100"}'
+name: Title
+description: ''
+sortorder: 11
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: null
+settings: '[]'

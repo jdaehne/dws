@@ -1,0 +1,122 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	video-intro
+/*
+/* --------------------------------------------------------------------------- */
+.video-intro {
+	display: grid;
+	grid-template-areas: "main";
+	background: #000;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+
+	video {
+		grid-area: main;
+		opacity: 0.8;
+		position: relative;
+		z-index: 1;
+		display: block;
+		width: 100%;
+		height: auto;
+		min-height: 700px;
+		max-height: 100vh;
+		object-fit: cover;
+	}
+
+	img {
+		grid-area: main;
+		opacity: 0.8;
+		position: relative;
+		z-index: 1;
+		display: block;
+		width: 100%;
+		height: auto;
+		height: 600px;
+		max-height: 100vh;
+		object-fit: cover;
+	}
+
+	&__content {
+		grid-area: main;
+		position: relative;
+		z-index: 3;
+		align-self: center;
+		justify-self: center;
+		text-align: center;
+	}
+
+	&__headline {
+		font-size: 2.1rem;
+		font-weight: 800;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		max-width: 780px;
+		margin: 0 auto;
+		padding-top: 80px;
+	}
+
+	&__text {
+		max-width: 500px;
+		margin: 0 auto;
+		margin-top: 2em;
+		letter-spacing: 0.07em;
+	}
+
+	&__button {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 4rem;
+		z-index: 5;
+
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: $colorSecondary;
+			margin: 0 auto;
+			width: 70px;
+			height: 70px;
+			border-radius: 100%;
+			cursor: pointer;
+
+			&:hover {
+				transform: scale(1.1);
+				background: $colorPrimary;
+
+				svg {
+					fill: $colorSecondary;
+				}
+			}
+		}
+
+		svg {
+			display: block;
+			width: 30px;
+			height: 30px;
+			fill: $colorPrimary;
+			transform: translate(0,5%);
+		}
+	}
+
+	// responsive
+	@media only screen and (max-width: 1100px) {
+		&__headline {
+			font-size: 1.6rem;
+		}
+	}
+
+	@media only screen and (max-width: 800px) {
+		&__button {
+			bottom: 10px;
+			transform: scale(0.7);
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		&__headline {
+			font-size: 1.2rem;
+		}
+	}
+}

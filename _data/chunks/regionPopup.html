@@ -1,0 +1,24 @@
+id: 20
+source: 2
+name: regionPopup
+description: ''
+category: Template
+properties: 'a:0:{}'
+
+-----
+
+<!-- regionPopup -->
+<div class="regionPopup__wrapper js-region-popup">
+    <div class="regionPopup">
+        <div class="regionPopup__content">
+            [[%regionpopup.text? &namespace=`site` &language=`[[++cultureKey]]`]]
+        </div>
+        <div class="regionPopup__buttonWrapper">
+            <a href="[[~1]]" class="button regionPopup__button">ASIA</a>
+            <a href="[[~13]]" class="button regionPopup__button">EMEA</a>
+        </div>
+        <a href="[[~[[*id]]]]" class="regionPopup__close js-region-popup-button">
+            <svg class="regionPopup__closeIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#close"></use></svg>
+        </a>
+    </div>
+</div>

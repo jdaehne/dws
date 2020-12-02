@@ -1,0 +1,8 @@
+id: 3
+name: Charts
+description: ''
+category: 1
+icon: site-cb-chart
+icon_type: custom
+content: '[{"layout":4,"content":{"main":[{"value":"","level":"h3","field":8,"settings":{}},{"rows":[{"subtitle":{"value":"","fieldId":"contentblocks-field-13"},"title":{"value":"","fieldId":"contentblocks-field-14"},"number":{"value":"","fieldId":"contentblocks-field-15"},"process":{"value":"","fieldId":"contentblocks-field-16"}}],"field":9,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

@@ -1,0 +1,13 @@
+id: 10
+name: Worldmap
+description: ''
+sortorder: 9
+category: 11
+icon: site-cb-worldmap
+icon_type: custom
+columns: '[{"reference":"main","width":"100"}]'
+template: "<div class=\"padding-top-[[+paddingTop]] padding-bottom-[[+paddingBottom]] nav-section\" [[+id:notempty=`id=\"[[+id]]\"`]]>\n    <div class=\"containerWide\">\n        <div class=\"worldmap__wrapper\">\n            <figure class=\"worldmap__backgroundWrapper\">\n                <img src=\"[[++project.assets_url]]uploads/accordion-01.jpg\" alt=\"cloud-background\" class=\"worldmap__background\">\n            </figure>\n            <div class=\"container\">\n                <h2>[[+title]]</h2>\n                <div class=\"worldmap\">\n                    <img src=\"[[++project.assets_url]]img/worldmap-large.png\" alt=\"\" class=\"worldmap__image\">\n                    [[+main]]\n                </div>\n            </div>    \n        </div>\n    </div>\n</div>"
+availability: '[{"field":"context","value":"hidden"}]'
+times_per_page: 0
+layout_only_nested: '0'
+settings: '[{"reference":"paddingTop","title":"Abstand Oben","fieldtype":"select","default_value":"0","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"0==kein Abstand\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10","field_is_exposed":"modal"},{"reference":"paddingBottom","title":"Abstand Unten","fieldtype":"select","default_value":"0","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"0==kein Abstand\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10","field_is_exposed":"modal"},{"reference":"id","title":"ID","fieldtype":"textfield","default_value":"","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"","field_is_exposed":"modal"},{"reference":"title","title":"Headline","fieldtype":"textfield","default_value":"","image_source":"","image_directory":"","image_file_types":"","image_thumbnail_size":"","fieldoptions":"","field_is_exposed":"asField"}]'

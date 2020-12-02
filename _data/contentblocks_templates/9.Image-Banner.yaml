@@ -1,0 +1,8 @@
+id: 9
+name: Image-Banner
+description: ''
+category: 12
+icon: site-cb-image-banner
+icon_type: custom
+content: '[{"layout":11,"content":{"main":[{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"field":42,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

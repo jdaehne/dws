@@ -1,0 +1,13 @@
+id: 16
+parent_properties: null
+input: heading
+name: Headline
+description: ''
+sortorder: 9
+category: 8
+icon: heading
+template: "<[[+level]]>[[+value]]</[[+level]]>\n"
+properties: '{"default_level":"h2","available_levels":"h2=heading_2","use_tinyrte":"0"}'
+availability: '[]'
+layouts: '6'
+settings: '[]'

@@ -1,0 +1,19 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	contact
+/*
+/* --------------------------------------------------------------------------- */
+.contact {
+	background: url(../img/bg-contact.jpg) no-repeat center bottom #464854;
+	background-size: cover;
+	padding: 3rem 0 0 0;
+	color: #fff;
+
+	.introtext {
+		text-align: center;
+		display: block;
+	}
+
+	// responsive
+	@media only screen and (max-width: 320px) {}
+}

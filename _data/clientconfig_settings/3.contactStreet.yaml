@@ -1,0 +1,9 @@
+id: 3
+key: contactStreet
+label: Street
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 10
+value: '175A Bencoolen Street #05-12'
+group: 2

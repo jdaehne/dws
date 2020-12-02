@@ -1,0 +1,13 @@
+id: 41
+parent: 33
+parent_properties: '{"key":"visibility","width":"100"}'
+input: dropdown
+name: 'Show Infos on Start'
+description: ''
+sortorder: 32
+icon: paragraph
+template: '[[+value]]'
+properties: '{"options":"==No\n1==Yes","default_value":""}'
+availability: '[]'
+layouts: null
+settings: '[]'

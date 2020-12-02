@@ -1,0 +1,9 @@
+id: 9
+key: contactRegion
+label: Region
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 13
+value: 'Burlington Square'
+group: 2

@@ -1,0 +1,13 @@
+id: 17
+parent_properties: null
+input: richtext
+name: Intro-Text
+description: ''
+sortorder: 10
+category: 8
+icon: richtext
+template: "<div class=\"accordion__intro\">\n    [[+value]]\n</div>"
+properties: '[]'
+availability: '[]'
+layouts: '6'
+settings: '[]'

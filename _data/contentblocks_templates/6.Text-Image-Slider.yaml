@@ -1,0 +1,8 @@
+id: 6
+name: Text-Image-Slider
+description: ''
+category: 1
+icon: site-cb-text-image
+icon_type: custom
+content: '[{"layout":8,"content":{"content":[{"value":"","field":21,"settings":{}},{"value":"","field":22,"settings":{}},{"link":"","linkType":"link","field":23,"settings":{}}],"slider":[{"rows":[{"image":{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"fieldId":"contentblocks-field-15"}}],"field":24,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

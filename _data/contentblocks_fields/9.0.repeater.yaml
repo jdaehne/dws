@@ -1,0 +1,13 @@
+id: 9
+parent_properties: null
+input: repeater
+name: Charts
+description: ''
+sortorder: 6
+category: 6
+icon: chunk_A
+template: "<div class=\"chart\">\n    <div class=\"chart__circle\">\n        <div class=\"chart__circle-progress js-chart-circle\" data-value=\"[[+process]]\"></div>\n        <div class=\"chart__circle-number\">\n            <span class=\"js-count-up\" id=\"count-up-[[+idx]]\" data-count=\"[[+number]]\"></span>\n        </div>\n    </div>\n    <div class=\"chart__text\">\n        <span>[[+subtitle]]</span>\n         [[+title]]\n    </div>\n</div>"
+properties: '{"wrapper_template":"<div class=\"chart__wrapper\">\n    [[+rows]]\n<\/div>\n","row_separator":"","max_items":"0","min_items":"0","add_first_item":"true","manager_columns":"4","layout_style":"default"}'
+availability: '[]'
+layouts: '4'
+settings: '[]'

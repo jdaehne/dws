@@ -1,0 +1,14 @@
+id: 19
+source: 2
+type: email
+name: formEmail
+caption: E-mail
+category: Contact
+elements: ''
+rank: 20
+display: default
+default_text: ''
+properties: 'a:0:{}'
+input_properties: 'a:3:{s:10:"allowBlank";s:5:"false";s:9:"maxLength";s:0:"";s:9:"minLength";s:0:"";}'
+output_properties: 'a:0:{}'
+content: ''

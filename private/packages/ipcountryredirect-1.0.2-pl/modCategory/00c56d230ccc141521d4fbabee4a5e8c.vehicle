@@ -1,0 +1,49 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '480d5c158ed0edf8ef8a596cd4be0bec' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"ipCountryRedirect","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/*\\n * ipCountryRedirect\\n *\\n * A ip-address based country redirector\\n *\\n *\\n * @author Jan D\\u00e4hne, Quadro <jan.daehne@quadro-system.de>\\n *\\/\\n\\n\\n\\/\\/ load Class\\n$modelPath = $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/ipcountryredirect\\/model\\/ipcountryredirect\\/\';\\n$modx->loadClass(\'ipCountryRedirect\', $modelPath, true, true);\\n\\n\\n\\/\\/ init Class\\n$ipcr = new ipCountryRedirect($modx);\\n\\n\\/\\/ get context countries settings\\n$countries = $ipcr->getContextsCountries();\\n\\nif (empty($countries)) {\\n    $modx->log(modX::LOG_LEVEL_ERROR, \'[ipCountryRedirect] No countries defined in context-settings (ipcr.countries).\');\\n    $ipcr->redirectToDefaultContext();\\n    return;\\n}\\n\\n\\/\\/ get users country code\\n$countryCode = $ipcr->getUserCountryCode();\\n\\nif (empty($countryCode)) {\\n    $modx->log(modX::LOG_LEVEL_ERROR, \'[ipCountryRedirect] Could not get countrycode from ip-address.\');\\n    $ipcr->redirectToDefaultContext();\\n    return;\\n}\\n\\n\\/\\/ redirect to context with set country-code\\nif (!$ipcr->redirectToContext($countryCode, $countries)) {\\n    \\/\\/Could not find matching context\\/country-code.\\n    $ipcr->redirectToDefaultContext();\\n    return;\\n}\\n\\n\\/\\/ redirect to default context\\n$ipcr->redirectToDefaultContext();\\nreturn;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/*\\n * ipCountryRedirect\\n *\\n * A ip-address based country redirector\\n *\\n *\\n * @author Jan D\\u00e4hne, Quadro <jan.daehne@quadro-system.de>\\n *\\/\\n\\n\\n\\/\\/ load Class\\n$modelPath = $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/ipcountryredirect\\/model\\/ipcountryredirect\\/\';\\n$modx->loadClass(\'ipCountryRedirect\', $modelPath, true, true);\\n\\n\\n\\/\\/ init Class\\n$ipcr = new ipCountryRedirect($modx);\\n\\n\\/\\/ get context countries settings\\n$countries = $ipcr->getContextsCountries();\\n\\nif (empty($countries)) {\\n    $modx->log(modX::LOG_LEVEL_ERROR, \'[ipCountryRedirect] No countries defined in context-settings (ipcr.countries).\');\\n    $ipcr->redirectToDefaultContext();\\n    return;\\n}\\n\\n\\/\\/ get users country code\\n$countryCode = $ipcr->getUserCountryCode();\\n\\nif (empty($countryCode)) {\\n    $modx->log(modX::LOG_LEVEL_ERROR, \'[ipCountryRedirect] Could not get countrycode from ip-address.\');\\n    $ipcr->redirectToDefaultContext();\\n    return;\\n}\\n\\n\\/\\/ redirect to context with set country-code\\nif (!$ipcr->redirectToContext($countryCode, $countries)) {\\n    \\/\\/Could not find matching context\\/country-code.\\n    $ipcr->redirectToDefaultContext();\\n    return;\\n}\\n\\n\\/\\/ redirect to default context\\n$ipcr->redirectToDefaultContext();\\nreturn;"}',
+        'guid' => 'c508019ef5ccb9e2abde53f608148315',
+        'native_key' => 1,
+        'signature' => 'f9e62735a594ea72506fc442aca6da78',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'ipcountryredirect',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"ipcountryredirect-1.0.2-pl\\/modCategory\\/00c56d230ccc141521d4fbabee4a5e8c\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"ipcountryredirect"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e97f5a4951b7d1a99eb672b6af7b1b91',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '00c56d230ccc141521d4fbabee4a5e8c',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"ipCountryRedirect","rank":0}',
+);

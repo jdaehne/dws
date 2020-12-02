@@ -1,0 +1,93 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	regionPopup
+/*
+/* --------------------------------------------------------------------------- */
+.regionPopup {
+	max-width: 500px;
+	padding: 65px;
+	background: #18304b;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+	@media (max-width: 500px) {
+		padding: 2rem 20px;
+	}
+
+	&__wrapper {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 100;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@media (max-width: 540px) {
+			padding: 0 20px;
+		}
+	}
+
+	&__content {
+		font-weight: 800;
+		letter-spacing: 0.03em;
+		font-size: 1.56rem;
+		color: #fff;
+		text-align: center;
+
+		@media (max-width: 540px) {
+			font-size: 1.2rem;
+		}
+	}
+
+	&__button {
+		text-align: center;
+		font-weight: 600;
+
+		&:last-child {
+			@media (max-width: 500px) {
+				margin-top: .5rem;
+			}
+		}
+
+		&Wrapper {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 2rem;
+
+			@media (max-width: 500px) {
+				flex-wrap: wrap;
+				max-width: 150px;
+				margin: 0 auto;
+				padding-top: 1rem;
+			}
+		}
+	}
+
+	&__close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(50%,-50%);
+		padding: 1rem;
+		border-radius: 100%;
+		background: #18304b;
+		cursor: pointer;
+
+		@media (max-width: 600px) {
+			transform: translate(0);
+			background: none;
+			padding: 10px;
+		}
+
+		&Icon {
+			display: block;
+			width: 23px;
+			height: 23px;
+			fill: $colorPrimary;
+		}
+	}
+}
