@@ -9,16 +9,14 @@
 	right: 0;
 	bottom: 0;
 	width: 280px;
-	background: $colorFont;
+	background: #fff;
 	z-index: 900;
 	padding: 30px;
-	color: #fff;
 	overflow-y: scroll;
 	padding-top: 80px;
 	transform: translate(100%,0);
 	transition: all 0.4s ease-in-out;
 	font-size: 1.1rem;
-	color: #fff;
 	box-shadow: none;
 	text-transform: uppercase;
 
@@ -32,6 +30,8 @@
 		li {
 			margin-bottom: 0.7em;
 			padding-bottom: 0.7em;
+			font-family: $fontSemiBold;
+	        letter-spacing: .036em;
 
 			&:not(:last-child) {
 				border-bottom: 1px solid #fff;
@@ -54,7 +54,7 @@
 			display: block;
 			width: 30px;
 			height: 30px;
-			fill: #fff;
+			fill: $colorPrimary;
 		}
 	}
 

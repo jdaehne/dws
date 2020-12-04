@@ -246,13 +246,15 @@ $(document).ready(function() {
 		$carousel.each(function(){
 			$(this).slick({
 				fade: false,
-				dots: false,
+				dots: true,
 				infinite: true,
 				arrows: true,
 				autoplay: false,
+				slidesToShow: 3,
 				speed: 1000,
+				appendDots: $(".js-logo-carousel-nav-dots"),
 				prevArrow: $(".js-logo-carousel-nav-prev"),
-				nextArrow: $(".js-logo-carousel-nav-next"),
+				nextArrow: $(".js-logo-carousel-nav-next")
 			});
 		});
 	}
@@ -265,6 +267,14 @@ $(document).ready(function() {
 		$(".js-region-popup").fadeOut();
 		$("body, html").removeClass("freeze");
 	});
+
+
+
+	// * * * * * * * * * * * * * * * * * * * * * * * * *
+	// * imageCompare
+	// *
+	// *
+	$(".js-image-compare").twentytwenty();
 
 
 });

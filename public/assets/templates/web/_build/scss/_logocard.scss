@@ -4,31 +4,43 @@
 /*
 /* --------------------------------------------------------------------------- */
 .logoCard {
-	display: flex;
+	display: flex !important;
 	justify-content: center;
 	align-items: center;
 	background-color: #fff;
 	padding: 50px;
 	position: relative;
-	perspective: 1000;
+	margin: 0 30px;
+	height: 220px;
+	color: $colorFont;
 
 	&__wrapper {
+		background-color: $colorPrimary;
+		padding: 75px 80px 125px;
+		position: relative;
 		color: #fff;
-		background-color: #18304b;
-		padding: 3rem 70px;
 
 		@media(max-width: 1000px) {
-			padding: 2rem 30px;
+			padding: 50px 30px;
 		}
 
 		@media(max-width: 700px) {
-			padding: 2rem 20px;
+			padding: 50px 20px;
+		}
+
+		.pagingNav__dots .slick-dots {
+			bottom: 70px;
+			padding: 0;
 		}
 	}
 
 	&__carousel {
 		position: relative;
-		padding: 0 15px; //width of arrows
+		padding: 25px 40px 0;
+
+		* {
+			outline: none;
+		}
 	}
 
 	&__inner {
@@ -68,37 +80,22 @@
 		text-align: center;
 	}
 
-	&__overlay {
+	&__title {
+		font-family: $fontBold;
+		font-size: 1.33rem;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 1.29;
+	}
+
+	&__link {
 		display: block;
 		position: absolute;
 		top: 0;
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background-color: rgba(0, 215, 255,.9);
-		color: lighten(#000, 30%);
-		padding: 1rem;
-		transform: rotateX(-90deg);
-		opacity: 0;
-		transition: all .4s ease;
-		transform-origin: top;
-		pointer-events: none;
-	}
-
-	&:hover &__overlay {
-		transform: rotateY(0);
-		opacity: 1;
-		pointer-events: auto;
-	}
-
-	&__title {
-		font-weight: 800;
-		text-transform: uppercase;
-		margin-bottom: .3em;
-	}
-
-	&__content {
-		font-size: .8rem;
 	}
 
 }

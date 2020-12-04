@@ -4,29 +4,55 @@
 /*
 /* --------------------------------------------------------------------------- */
 .header {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 110;
+
+    &--static {
+        .header__logo {
+            position: relative;
+
+            &:after {
+                content: "";
+                display: block;
+                height: 30px;
+                width: 110%;
+                position: absolute;
+                left: 0;
+                background: #fff;
+                z-index: 2;
+            }
+        }
+    }
 
     &__action {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 2px;
         justify-content: flex-end;
+
+        .button {
+            @media (max-width: 700px) {
+                font-size: .8rem;
+            }
+        }
     }
 
     &__inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media (max-width: 700px) {
+            padding-top: 1rem;
+        }
     }
 
-    &__logo {
+    &__logo  {
         display: block;
         width: 284px;
         height: auto;
+
+        @media (max-width: 700px) {
+            width: 200px;
+        }
     }
 
     &__nav {
@@ -68,31 +94,30 @@
     // sticky header
     &--sticky {
         position: fixed;
-        background: $colorFont;
-        padding: 27px 70px 20px 70px;
+        background: #fff;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
         transform: translate(0,-100%);
         transition: all 0.4s ease-in-out;
+        padding: .7rem 0;
 
         &.active {
             transform: translate(0);
         }
 
-        .logo img {
-            width: 155px;
+        .header__logo img {
+            width: 200px;
+        }
+
+        .header__nav {
+            padding-top: 0;
         }
     }
 
     // responsive
-    @media (max-width: 1400px) {
-        padding: 35px 20px 0 20px;
-
-        &--sticky {
-            padding: 10px 20px 10px 20px;
-
-            .logo img {
-                width: 120px;
-            }
-        }
+    @media (max-width: 1200px) {
 
         nav {
             display: none;
@@ -100,22 +125,6 @@
 
         .mobile-menu-btn {
             display: block;
-        }
-    }
-
-    @media (max-width: 500px) {
-        padding: 20px 20px 0 20px;
-
-        .logo img {
-            width: 150px;
-        }
-
-        &--sticky {
-            padding: 10px 20px 10px 20px;
-
-            .logo img {
-                width: 120px;
-            }
         }
     }
 }

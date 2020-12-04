@@ -44,7 +44,7 @@
         display: block;
         width: 15px;
         height: 30px;
-        fill: $colorPrimary;
+        fill: #fff;;
     }
 
 
@@ -58,13 +58,11 @@
             transform: translate(-50%,0);
             display: flex;
             padding: 1rem .5rem;
-            background-color: #18304b;
-            border-radius: 2rem;
 
             button {
                 text-indent: -99999px;
                 display: block;
-                background-color: $colorPrimary;
+                background-color: rgba(255,255,255,.5);
                 height: 10px;
                 width: 10px;
                 border: none;

@@ -1,0 +1,84 @@
+/* --------------------------------------------------------------------------- */
+/*
+/*	imageCompare
+/*
+/* --------------------------------------------------------------------------- */
+.imageCompare {
+	position: relative;
+
+	&__image {
+		display:block;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		min-height: 350px;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		bottom: 60px;
+		left: 0;
+		right: 0;
+		padding: 0 20px;
+
+		@media (max-width: 500px) {
+			position: relative;
+			bottom: auto;
+			padding: 0;
+		}
+	}
+
+	&__inner {
+		text-align: center;
+		padding: 25px 35px;
+		background: $colorPrimary;
+		color: #fff;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+	}
+
+	&__title {
+		margin-bottom: 0;
+	}
+
+	&__subtitle {
+		font-family: $fontLight;
+		font-size: 1.33rem;
+
+		@media (max-width: 600px) {
+			font-size: 1.2rem;
+		}
+	}
+
+	.twentytwenty {
+
+		&-handle {
+			background: #fff;
+			box-shadow: none;
+			height: 70px;
+			width: 70px;
+			margin-left: -38px;
+
+			&:before,
+			&:after {
+				box-shadow: none;
+			}
+		}
+
+		&-left-arrow {
+			border: 8px inset transparent;
+			margin-top: -8px;
+			border-right: 8px solid $colorPrimary;
+			margin-left: -25px;
+		}
+
+		&-right-arrow {
+			border: 8px inset transparent;
+			margin-top: -8px;
+			border-left: 8px solid $colorPrimary;
+			margin-right: -25px;
+		}
+	}
+
+}
