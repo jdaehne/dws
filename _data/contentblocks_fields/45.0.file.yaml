@@ -1,0 +1,13 @@
+id: 45
+parent_properties: null
+input: file
+name: Video
+description: ''
+sortorder: 41
+category: 13
+icon: attachment
+template: '[[+url]]'
+properties: '{"wrapper_template":"[[+files]]","max_files":"1","source":"0","directory":"bilder\/","file_types":"mp4"}'
+availability: '[]'
+layouts: '12'
+settings: '[]'

@@ -1,0 +1,12 @@
+id: 48
+parent_properties: null
+name: 'Small Headline'
+description: ''
+sortorder: 44
+category: 13
+icon: paragraph
+template: '<div class="video__subtitle">[[+value]]</div>'
+properties: '{"use_tinyrte":"false"}'
+availability: ''
+layouts: '12'
+settings: '[]'

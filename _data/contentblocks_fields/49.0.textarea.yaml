@@ -1,0 +1,13 @@
+id: 49
+parent_properties: null
+input: textarea
+name: Title
+description: ''
+sortorder: 45
+category: 14
+icon: paragraph
+template: "<div class=\"h2 imageCompare__title\">[[+value:nl2br]]</div>\n"
+properties: '{"use_tinyrte":"false"}'
+availability: ''
+layouts: '13'
+settings: '[]'

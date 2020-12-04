@@ -1,9 +1,8 @@
-id: 30
+id: 43
 parent: 26
-parent_properties: '{"key":"title","width":"100"}'
-name: Title
+parent_properties: '{"key":"background","width":"100"}'
+name: 'Background-Color (default: #ffffff)'
 description: ''
-sortorder: 2
 icon: paragraph
 template: '[[+value]]'
 properties: '{"use_tinyrte":"false"}'

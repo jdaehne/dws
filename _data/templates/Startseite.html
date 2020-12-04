@@ -11,152 +11,28 @@ properties: 'a:0:{}'
 
         [[$header]]
         
-        [[!regionPopup]]
-        
-
-        <!-- video-intro -->
-        <div class="video-intro">
-            <div class="video-intro__content">
-                <div class="container">
-                    <h1 class="video-intro__headline animate-in animate-in--translate-down">[[*videoIntroHeadline]]</h1>
-                    <div class="video-intro__text animate-in animate-in--translate-up">[[*videoIntroText]]</div>
+        <!-- imageIntro -->
+        <div class="padding-top-5">
+            <div class="container">
+                <h2>Über uns</h2>
+                <div class="imageIntro">
+                    <figure>
+                        <figcaption class="imageIntro__imageCaption">Swjfjhv<br>Geschäftsführer</figcaption>
+                    </figure>
+                    <div class="content">
+                        <p>Die Firma DWS-Sanierungsservice GmbH wurde im Jahr 1997 gegründet. 
+Seit der Gründung des Unternehmens und der langjähringen Erfahrungen unserer Mitarbeiter steht die Sanierung nach Brand-, Wasser-, Schimmel- und Elementarschäden im Mittelpunkt unserer Arbeit.
+</p><p>
+Darüber hinaus bieten wir Ihnen sämtliche Renorvierungsarbeiten, Installation, Sanierung und Reparatur von Sanitär- und Heizungsanlagen sowie klasische Klempnerarbeiten.</p>
+                    </p>
+                    </div>
                 </div>
-            </div>
-            <video src="/assets/uploads/[[*videoIntroVideo]]" playsinline autoplay loop muted></video>
-            <div class="video-intro__button">
-                <a href="#about">
-                    <svg><use xlink:href="[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#angle-down"></use></svg>
-                </a>
             </div>
         </div>
         
         [[*content]]
 
-        [[!FormIt?
-           &hooks=`spam,email`
-           &emailTpl=`contactEmailTpl`
-           &emailSubject=`Contact-Form Website`
-           &emailFromName=`[[+firstname]] [[+lastname]]`
-           &emailTo=`[[*formEmail]]`
-           &errTpl=`error`
-           &successMessage=`<div class="form__field--big"><div class="form__message">[[*formMessage]]</div></div>`
-           &validate=`firstname:required,
-                      lastname:required,
-                      email:email:required,
-                      tel:required,
-                      privacy:required`
-        ]]
-
-        <!-- contact -->
-        <div class="contact nav-section">
-            <div class="container">
-                <h2>[[%form.title? &namespace=`site` &language=`[[++cultureKey]]`]]</h2>
-                <div class="introtext">[[%form.introtext]]</div>
-                <form action="[[~[[*id]]]]#contact" method="post" class="form">
-                    [[!+fi.successMessage]]
-                    <input type="hidden" name="nospam:blank" value="[[+fi.nospam]]" />
-                    
-                    <div class="form__field [[!+fi.error.firstname]]">
-                        <label for="firstname" class="form__label">[[%form.firstname]]*</label>
-                        <input type="text" name="firstname" id="firstname" value="[[!+fi.firstname]]" required>
-                    </div>
-                    <div class="form__field [[!+fi.error.lastname]]">
-                        <label for="lastname" class="form__label">[[%form.lastname]]*</label>
-                        <input type="text" name="lastname" id="lastname" value="[[!+fi.lastname]]" required>
-                    </div>
-                    <div class="form__field [[!+fi.error.email]]">
-                        <label for="email" class="form__label">[[%form.email]]*</label>
-                        <input type="email" name="email" id="email" value="[[!+fi.email]]" required>
-                    </div>
-                    <div class="form__field [[!+fi.error.tel]]">
-                        <label for="tel" class="form__label">[[%phone]]*</label>
-                        <input type="tel" name="tel" id="tel" value="[[!+fi.tel]]" required>
-                    </div>
-                    <div class="form__field">
-                        <label for="job" class="form__label">[[%form.job]]</label>
-                        <input type="text" name="job" id="job" value="[[!+fi.job]]">
-                    </div>
-                    <div class="form__field">
-                        <label for="company" class="form__label">[[%form.company]]</label>
-                        <input type="text" name="company" id="company" value="[[!+fi.company]]">
-                    </div>
-                    <div class="form__field">
-                        <label for="employees" class="form__label">[[%form.employees]]</label>
-                        <input type="text" name="employees" id="employees" value="[[!+fi.employees]]">
-                    </div>
-                    <div class="form__field">
-                        <label for="country" class="form__label">[[%form.country]]</label>
-                        <div class="form__select">
-                            <select name="country">
-                                <option value="" disabled selected>[[%form.select]]</option>
-                                [[!FormItCountryOptions?
-                                    &selected=`[[!+fi.country]]`
-                                    &prioritized=`DE,US,SG`
-                                    &useIsoCode=`0`
-                                ]]
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form__field form__field--big">
-                        <label for="message" class="form__label">[[%form.message]]</label>
-                        <textarea name="message" id="message">[[!+fi.message]]</textarea>
-                    </div>
-                    <div class="form__field form__field--big">
-                        <div class="form__checkbox">
-                            <label>
-                                <input type="checkbox" name="offer" value="1" [[!+fi.offer:FormItIsChecked=`1`]]><i></i>
-                                <svg class="form__checkboxIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#check"></use></svg>
-                                <span class="form__checkboxLabel">[[%form.offer]]</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form__field form__field--big">
-                        <div class="form__checkbox">
-                            <label>
-                                <input type="checkbox" name="demo" value="1" [[!+fi.offer:FormItIsChecked=`1`]]><i></i>
-                                <svg class="form__checkboxIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#check"></use></svg>
-                                <span class="form__checkboxLabel">[[%form.demo]]</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form__field form__field--big [[!+fi.error.privacy]]">
-                        <div class="form__checkbox">
-                            <label>
-                                <input type="checkbox" name="privacy" value="1" [[!+fi.privacy:FormItIsChecked=`1`]]><i></i>
-                                <svg class="form__checkboxIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#check"></use></svg>
-                                [[%form.privacy]]
-                            </label>
-                        </div>
-                    </div>
-                    
-                    <div class="form__button">
-                        <button type="submit" class="button">[[%form.send]]</button>
-                    </div>
-                </form>
-            </div>
-
-            <!-- footer -->
-            <footer class="main">
-                <div class="footer__contact">
-                    <div class="address">
-                        <span class="name">[[++contactName]]</span><br>
-                        [[++contactStreet]]<br>
-                        [[++contactRegion]] <span class="spacer">·</span> [[++contactCity]] [[++contactZip]]
-                    </div>
-                    <div>
-                        <span class="label">[[%label.email.short]]</span><a href="mailto:[[++contactEmail]]">[[++contactEmail]]</a><br>
-                        <span class="label">[[%label.phone.short]]</span>[[++contactTel]]
-                    </div>
-                    <nav>
-                        <ul>
-                            <li><a href="[[++filePrivacy]]" target="_blank">[[%label.privacy]]</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </footer>
-        </div>
-
-        [[$socialLinks]]
+        [[$footer]]
 
 		[[$scripts]]
 

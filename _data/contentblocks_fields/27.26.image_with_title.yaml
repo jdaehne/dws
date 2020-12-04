@@ -4,7 +4,7 @@ parent_properties: '{"key":"logo","width":"100"}'
 input: image_with_title
 name: Logo
 description: ''
-sortorder: 27
+sortorder: 1
 icon: image
 template: "<img src=\"[[+crops.standard.url]]\" alt=\"[[+title:htmlent]]\" class=\"logoCard__image\">\n"
 properties: '{"source":"0","directory":"bilder\/","crop_directory":"crops\/","crops":"standard:width=350","open_crops_automatically":"1","file_types":"png,gif,jpg,jpeg,svg","thumbnail_size":"0","thumbnail_crop":"standard","use_tinyrte":"0"}'

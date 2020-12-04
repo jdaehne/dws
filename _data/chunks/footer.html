@@ -1,0 +1,68 @@
+id: 22
+source: 2
+name: footer
+description: ''
+category: Template
+properties: 'a:0:{}'
+
+-----
+
+<!-- footer --> 
+<footer class="footer">
+    <figure class="footer__background">
+        <img src="[[++project.assets_url]]img/footer-background-01.jpg" alt="" class="footer__backgroundImage">
+    </figure>
+    <div class="footer__inner">
+        <h2 class="footer__title">Nehmen Sie Kontakt auf!</h2>
+        <div class="footer__columns">
+            <div>
+                <div class="footer__category">Wir sind für Sie da!</div>
+                <div class="footer__content">
+                    <a class="footer__link" href="tel:[[++contactTel:sanitizeTel]]">
+                        <svg class="footer__logo"><use xlink:href="[[++project.assets_url]]img/sprite.svg#phone"></use></svg>
+                        [[++contactTel]]
+                    </a>
+                    <a class="footer__link" href="tel:[[++contactMobile:sanitizeTel]]">
+                        <svg class="footer__logo"><use xlink:href="[[++project.assets_url]]img/sprite.svg#bell"></use></svg>
+                        [[++contactMobile]]
+                    </a>
+                    <a class="footer__link" href="mailto:[[++contactEmail]]">
+                        <svg class="footer__logo"><use xlink:href="[[++project.assets_url]]img/sprite.svg#envelope"></use></svg>
+                        [[++contactMobile]]
+                    </a>
+                    <a class="footer__link" href="https://wa.me/[[++contactWhatsapp:sanitizeTel]]">
+                        <svg class="footer__logo"><use xlink:href="[[++project.assets_url]]img/sprite.svg#whatsapp"></use></svg>
+                        Whatsapp
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer__category">Unsere Geschäftszeiten</div>
+                <div class="footer__content">
+                    <p>
+                        Montag - Donnerstag<br>
+                        7:00 Uhr - 16:00 Uhr
+                    </p>
+                    <p>
+                        Freitag<br>
+                        7:00 Uhr - 14:00 Uhr
+                    </p>
+                </div>
+            </div> 
+            <div>
+                <div class="footer__category">Anschrift</div>
+                <div class="footer__content">
+                    [[++contactName]]<br>
+                    [[++contactStreet]]<br>
+                    [[++contactZip]] [[++contactCity]]
+                </div>
+                <img src="[[++project.assets_url]]uploads/platzhalter.jpg" alt="" class="footer__image">
+            </div>
+        </div>
+        <ul class="footer__bottom">
+            <li>&copy; [[++contactName]]</li>
+            <li><a href="[[~21]]">Impressum</a></li>
+            <li><a href="[[~22]]">Datenschutz</a></li>
+        </ul>
+    </div>
+</footer>

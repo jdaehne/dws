@@ -1,0 +1,8 @@
+id: 11
+name: 'Image Compare'
+description: ''
+category: 1
+icon: site-cb-image-compare
+icon_type: custom
+content: '[{"layout":13,"content":{"main":[{"value":"","field":49,"settings":{}},{"value":"","field":50,"settings":{}}],"imageLeft":[{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"field":51,"settings":{}}],"imageRight":[{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"field":52,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

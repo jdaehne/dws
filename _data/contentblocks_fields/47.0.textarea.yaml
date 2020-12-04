@@ -1,0 +1,13 @@
+id: 47
+parent_properties: null
+input: textarea
+name: Headline
+description: ''
+sortorder: 43
+category: 13
+icon: paragraph
+template: '<div class="h2 video__title">[[+value:nl2br]]</div>'
+properties: '{"use_tinyrte":"false"}'
+availability: '[]'
+layouts: '12'
+settings: '[]'

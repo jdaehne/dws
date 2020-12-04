@@ -1,0 +1,8 @@
+id: 10
+name: Video
+description: ''
+category: 1
+icon: site-cb-video
+icon_type: custom
+content: '[{"layout":12,"content":{"video":[{"files":[],"field":45,"settings":{}}],"image":[{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"field":46,"settings":{}}],"main":[{"value":"","field":47,"settings":{}},{"value":"","field":48,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

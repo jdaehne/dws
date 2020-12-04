@@ -7,66 +7,54 @@ properties: 'a:0:{}'
 -----
 
 <!-- header -->
-<header class="main">
-    <div class="logo">
-        <a href="[[++site_url]]">
-            <img src="[[++project.assets_url]]img/logo.svg" alt="[[++site_name:htmlent]]">
-        </a>
-    </div>
-    <nav class="js-nav-wrapper">
-        <ul>
-            <li><a href="#about">[[%nav.about? &namespace=`site` &language=`[[++cultureKey]]`]]</a></li>
-            <li><a href="#expertise">[[%nav.expertise]]</a></li>
-            <li><a href="#delivery">[[%nav.delivery]]</a></li>
-            <li><a href="#be-an-aodigy">[[%nav.beanaodigy]]</a></li>
-            <li><a href="#giving-back">[[%nav.givingback]]</a></li>
-            <li><a href="#references">[[%nav.references]]</a></li>
-            <li><a href="#contact">[[%nav.contact]]</a></li>
-        </ul>
-    </nav>
-    <div class="header__language js-language-parent">
-        <div class="header__languageButton js-language-button">
-            <svg class="header__languageIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#world"></use></svg>
-            <span>[[++regionName]]</span>
+<header class="header header--static">
+    <div class="container container--max">
+        <div class="header__action">
+            <a href="tel:006569350790" class="button"><svg class="button__icon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#phone"></use></svg>+65 6935 0790</a>
+            <a href="tel:" class="button"><svg class="button__icon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#bell"></use></svg><span class="button--light">24/7 Notdienst</span></a>
         </div>
-        <div class="header__languagePopup js-language-popup">
-            [[$languagePopup]]
+        <div class="header__inner">
+            <a class="header__logo" href="[[++site_url]]">
+                <img src="[[++project.assets_url]]img/logo.svg" alt="DWS Sanierungsservice">
+            </a>
+            <nav class="header__nav js-nav-wrapper">
+                <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#certificates">Zertifikate</a></li>
+                    <li><a href="#opinions">Meinungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn js-nav-mobile-btn">
+                <svg><use xlink:href="/assets/templates/web/img/sprite.svg#menu-bars"></use></svg>
+            </div>
         </div>
-    </div>
-    <div class="mobile-menu-btn js-nav-mobile-btn">
-        <svg><use xlink:href="[[++project.assets_url]]img/sprite.svg#menu-bars"></use></svg>
     </div>
 </header>
 
 <!-- header sticky -->
-<header class="main main--sticky">
-    <div class="logo">
-        <a href="[[++site_url]]">
-            <img src="[[++project.assets_url]]img/logo.svg" alt="">
-        </a>
-    </div>
-    <nav class="js-nav-wrapper">
-        <ul>
-            <li><a href="#about">[[%nav.about? &namespace=`site` &language=`[[++cultureKey]]`]]</a></li>
-            <li><a href="#expertise">[[%nav.expertise]]</a></li>
-            <li><a href="#delivery">[[%nav.delivery]]</a></li>
-            <li><a href="#be-an-aodigy">[[%nav.beanaodigy]]</a></li>
-            <li><a href="#giving-back">[[%nav.givingback]]</a></li>
-            <li><a href="#references">[[%nav.references]]</a></li>
-            <li><a href="#contact">[[%nav.contact]]</a></li>
-        </ul>
-    </nav>
-    <div class="header__language js-language-parent">
-        <div class="header__languageButton js-language-button">
-            <svg class="header__languageIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#world"></use></svg>
-            <span>[[++regionName]]</span>
+<header class="header js-header-sticky header--sticky">
+    <div class="container container--max">
+        <div class="header__inner">
+            <a class="header__logo" href="[[++site_url]]">
+                <img src="[[++project.assets_url]]img/logo.svg" alt="DWS Sanierungsservice">
+            </a>
+            <nav class="header__nav js-nav-wrapper">
+                <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#certificates">Zertifikate</a></li>
+                    <li><a href="#opinions">Meinungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn js-nav-mobile-btn">
+                <svg><use xlink:href="[[++project.assets_url]]img/sprite.svg#menu-bars"></use></svg>
+            </div>
         </div>
-        <div class="header__languagePopup js-language-popup">
-            [[$languagePopup]]
-        </div>
-    </div>
-    <div class="mobile-menu-btn js-nav-mobile-btn">
-        <svg><use xlink:href="[[++project.assets_url]]img/sprite.svg#menu-bars"></use></svg>
     </div>
 </header>
 
@@ -80,22 +68,12 @@ properties: 'a:0:{}'
    </div>
    <nav class="js-nav-wrapper">
        <ul>
-           <li><a href="#about">[[%nav.about? &namespace=`site` &language=`[[++cultureKey]]`]]</a></li>
-            <li><a href="#expertise">[[%nav.expertise]]</a></li>
-            <li><a href="#delivery">[[%nav.delivery]]</a></li>
-            <li><a href="#be-an-aodigy">[[%nav.beanaodigy]]</a></li>
-            <li><a href="#giving-back">[[%nav.givingback]]</a></li>
-            <li><a href="#references">[[%nav.references]]</a></li>
-            <li><a href="#contact">[[%nav.contact]]</a></li>
-       </ul>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#about">Über uns</a></li>
+            <li><a href="#services">Leistungen</a></li>
+            <li><a href="#certificates">Zertifikate</a></li>
+            <li><a href="#opinions">Meinungen</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
    </nav>
-   <div class="header__language js-language-parent">
-        <div class="header__languageButton js-language-button">
-            <svg class="header__languageIcon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#world"></use></svg>
-            <span>[[++regionName]]</span>
-        </div>
-        <div class="header__languagePopup js-language-popup">
-            [[$languagePopup]]
-        </div>
-    </div>
-</aside>
+</aside
