@@ -1,0 +1,8 @@
+id: 16
+key: timesWeekendName
+label: 'Bezeichnung zweite Gruppe'
+xtype: textfield
+description: ''
+sortorder: 30
+value: Samstags
+group: 4

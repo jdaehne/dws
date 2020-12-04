@@ -1,0 +1,13 @@
+id: 53
+parent_properties: null
+input: image_with_title
+name: Image
+description: ''
+sortorder: 49
+category: 15
+icon: image
+template: "<img class=\"imageIntro__image\" src=\"[[+crops.standard.url]]\" alt=\"[[+title:htmlent]]\">\n<figcaption class=\"imageIntro__imageCaption\">[[+title]]</figcaption>"
+properties: '{"source":"0","directory":"bilder\/","crop_directory":"crops\/","crops":"standard:width=300,aspect=1","open_crops_automatically":"1","file_types":"png,gif,jpg,jpeg,svg","thumbnail_size":"0","thumbnail_crop":"standard","use_tinyrte":"0"}'
+availability: '[]'
+layouts: '14'
+settings: '[]'

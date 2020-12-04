@@ -112,7 +112,7 @@ $(document).ready(function() {
 	// *
 	var $sections = $(".nav-section"),
     	$nav = $(".js-nav-wrapper ul"),
-    	navHeight = $("header.main").outerHeight();
+    	navHeight = $("header").outerHeight();
 
 	$(window).on('scroll', function () {
 		var cur_pos = $(this).scrollTop() + 40;
@@ -254,19 +254,30 @@ $(document).ready(function() {
 				speed: 1000,
 				appendDots: $(".js-logo-carousel-nav-dots"),
 				prevArrow: $(".js-logo-carousel-nav-prev"),
-				nextArrow: $(".js-logo-carousel-nav-next")
+				nextArrow: $(".js-logo-carousel-nav-next"),
+				responsive: [
+				    {
+				      breakpoint: 1200,
+				      settings: {
+				        slidesToShow: 2
+				      }
+				    },
+				    {
+				      breakpoint: 800,
+				      settings: {
+						slidesToShow: 2
+				      }
+				    },
+				    {
+				      breakpoint: 600,
+				      settings: {
+				        slidesToShow: 1
+				      }
+				    }
+				  ]
 			});
 		});
 	}
-
-	// * * * * * * * * * * * * * * * * * * * * * * * * *
-	// * region popup
-	// *
-	// *
-	$(".js-region-popup-button").click(function(){
-		$(".js-region-popup").fadeOut();
-		$("body, html").removeClass("freeze");
-	});
 
 
 

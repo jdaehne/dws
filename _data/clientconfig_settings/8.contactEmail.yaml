@@ -4,6 +4,6 @@ label: E-mail
 xtype: textfield
 description: ''
 is_required: 1
-sortorder: 22
-value: contactus@aodigy.com
+sortorder: 23
+value: mail@dws-sanierung.de
 group: 2

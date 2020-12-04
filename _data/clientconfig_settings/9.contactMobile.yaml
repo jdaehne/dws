@@ -1,0 +1,9 @@
+id: 9
+key: contactMobile
+label: Mobile
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 21
+value: '0171 / 215 555 6'
+group: 2

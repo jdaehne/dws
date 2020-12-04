@@ -1,0 +1,8 @@
+id: 12
+name: 'Image Intro'
+description: ''
+category: 1
+icon: site-cb-image-intro
+icon_type: custom
+content: '[{"layout":14,"content":{"title":[{"value":"","level":"h2","field":56,"settings":{}}],"image":[{"url":"","title":"","size":"","width":"","height":"","extension":"","crops":{},"field":53,"settings":{}}],"content":[{"value":"","field":55,"settings":{}}]},"settings":[],"parent":0,"title":""}]'
+availability: '[]'

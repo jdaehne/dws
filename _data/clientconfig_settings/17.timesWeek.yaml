@@ -1,0 +1,9 @@
+id: 17
+key: timesWeek
+label: Geschäftszeiten
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 20
+value: '7:00 - 16:00 Uhr'
+group: 4

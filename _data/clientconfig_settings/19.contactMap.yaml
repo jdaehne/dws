@@ -1,0 +1,9 @@
+id: 19
+key: contactMap
+label: 'Map Image'
+xtype: modx-panel-tv-image
+description: ''
+sortorder: 100
+value: bilder/platzhalter/wolken-bild.jpg
+group: 2
+source: 2

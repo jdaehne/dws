@@ -1,0 +1,9 @@
+id: 15
+key: timesWeekName
+label: 'Bezeichnung erste Gruppe'
+xtype: textfield
+description: ''
+is_required: 1
+sortorder: 10
+value: 'Montag - Donnerstag'
+group: 4

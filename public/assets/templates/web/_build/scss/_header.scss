@@ -28,9 +28,24 @@
         grid-gap: 2px;
         justify-content: flex-end;
 
+        @media (max-width: 350px) {
+            margin: 0 -20px;
+            justify-content: center;
+        }
+
         .button {
-            @media (max-width: 700px) {
+            @media (max-width: 800px) {
                 font-size: .8rem;
+            }
+        }
+
+        &--desktopOnly {
+            font-family: $fontLight;
+            display: inline-block;
+            margin-right: .3em;
+
+            @media (max-width: 700px) {
+                display: none;
             }
         }
     }

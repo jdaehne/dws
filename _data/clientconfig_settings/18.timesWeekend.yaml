@@ -1,0 +1,8 @@
+id: 18
+key: timesWeekend
+label: Geschäftszeiten
+xtype: textfield
+description: ''
+sortorder: 40
+value: '7:00 - 14:00 Uhr'
+group: 4

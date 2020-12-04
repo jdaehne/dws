@@ -8,10 +8,10 @@ properties: 'a:0:{}'
 
 <!-- header -->
 <header class="header header--static">
-    <div class="container container--max">
+    <div class="container">
         <div class="header__action">
-            <a href="tel:006569350790" class="button"><svg class="button__icon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#phone"></use></svg>+65 6935 0790</a>
-            <a href="tel:" class="button"><svg class="button__icon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#bell"></use></svg><span class="button--light">24/7 Notdienst</span></a>
+            <a href="tel:[[++contactTel:sanitizeTel]]" class="button"><svg class="button__icon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#phone"></use></svg>[[++contactTel]]</a>
+            <a href="tel:[[++contactMobile:sanitizeTel]]" class="button"><svg class="button__icon"><use xlink:href="[[++project.assets_url]]img/sprite.svg#bell"></use></svg><span class="header__action--desktopOnly">24/7 Notdienst</span>[[++contactMobile]]</a>
         </div>
         <div class="header__inner">
             <a class="header__logo" href="[[++site_url]]">
@@ -36,7 +36,7 @@ properties: 'a:0:{}'
 
 <!-- header sticky -->
 <header class="header js-header-sticky header--sticky">
-    <div class="container container--max">
+    <div class="container">
         <div class="header__inner">
             <a class="header__logo" href="[[++site_url]]">
                 <img src="[[++project.assets_url]]img/logo.svg" alt="DWS Sanierungsservice">

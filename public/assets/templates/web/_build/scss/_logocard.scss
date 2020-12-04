@@ -14,6 +14,10 @@
 	height: 220px;
 	color: $colorFont;
 
+	@media (max-width: 1200px) {
+		margin: 0 15px;
+	}
+
 	&__wrapper {
 		background-color: $colorPrimary;
 		padding: 75px 80px 125px;
@@ -21,22 +25,30 @@
 		color: #fff;
 
 		@media(max-width: 1000px) {
-			padding: 50px 30px;
+			padding: 75px 30px 125px;
 		}
 
 		@media(max-width: 700px) {
-			padding: 50px 20px;
+			padding: 50px 20px 100px;
 		}
 
 		.pagingNav__dots .slick-dots {
 			bottom: 70px;
 			padding: 0;
+
+			@media(max-width: 700px) {
+				bottom: 50px;
+			}
 		}
 	}
 
 	&__carousel {
 		position: relative;
 		padding: 25px 40px 0;
+
+		@media(max-width: 700px) {
+			padding: 25px 20px 0;
+		}
 
 		* {
 			outline: none;
