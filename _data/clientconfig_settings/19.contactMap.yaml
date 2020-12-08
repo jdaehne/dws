@@ -4,6 +4,6 @@ label: 'Map Image'
 xtype: modx-panel-tv-image
 description: ''
 sortorder: 100
-value: bilder/platzhalter/wolken-bild.jpg
+value: bilder/anfahrtsskizze.png
 group: 2
 source: 2
