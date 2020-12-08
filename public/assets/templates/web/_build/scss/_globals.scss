@@ -14,6 +14,8 @@
 	font-size: 18px;
 	color: $colorFont;
 	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Body */
@@ -58,7 +60,7 @@ h1, h2, h3, h4, h5 {
 
 h2, .h2 {
 	font-family: $fontBold;
-	font-size: 1.33rem;
+	font-size: 1.55rem;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	text-align: center;

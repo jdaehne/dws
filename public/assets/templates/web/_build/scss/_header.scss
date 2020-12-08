@@ -9,15 +9,23 @@
         .header__logo {
             position: relative;
 
+            @media (max-width: 1200px) {
+                padding-bottom: .5em;
+            }
+
             &:after {
                 content: "";
                 display: block;
-                height: 30px;
+                height: 25px;
                 width: 110%;
                 position: absolute;
                 left: 0;
                 background: #fff;
                 z-index: 2;
+
+                @media (max-width: 1200px) {
+                    display: none;
+                }
             }
         }
     }
@@ -83,7 +91,7 @@
 
         li {
             &:not(:first-child) {
-                margin-left: 2em;
+                margin-left: 2.5em;
             }
         }
 
