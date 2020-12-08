@@ -1,0 +1,13 @@
+id: 57
+parent: 18
+parent_properties: '{"key":"gallery","width":"100"}'
+input: repeater
+name: Gallery
+description: ''
+sortorder: 55
+icon: chunk_A
+template: '<img class="accordion__image" data-fancybox="[[+galleryId]]" src="[[+image]]" alt="Gallery [[+galleryId]]">'
+properties: '{"wrapper_template":"[[+rows]]","row_separator":"","max_items":"0","min_items":"0","add_first_item":"true","manager_columns":"1","layout_style":"mini"}'
+availability: '[]'
+layouts: null
+settings: '[]'

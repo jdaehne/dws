@@ -3,7 +3,7 @@ parent_properties: null
 input: repeater
 name: Locations
 description: ''
-sortorder: 18
+sortorder: 17
 category: 11
 icon: chunk_A
 template: "<li class=\"worldmap__marker js-worldmap-parent\" style=\"left: [[+left]]%; top: [[+top]]%;\"> \n    <div class=\"worldmap__markerIcon js-worldmap-marker\"> \n        <svg><use xlink:href=\"[[++project.assets_url]]img/sprite.svg?v=[[++project.assets_version]]#marker\"></use></svg> \n    </div>\n    <div class=\"worldmap__markerInfo js-worldmap-info [[+visibility:notempty=`active`]]\">\n        <p>\n            <span class=\"worldmap__markerLabel\">[[+location]]</span><br>\n            [[+address:nl2br]]\n        </p> \n        <span class=\"worldmap__markerLabel\">Tel</span> <a href=\"tel:[[+tel:sanitizeTel]]\">[[+tel]]</a><br> \n        [[+fax:notempty=`<span class=\"worldmap__markerLabel\">Fax</span> <a href=\"tel:[[+fax:sanitizeTel]]\">[[+fax]]</a><br>`]] \n        <span class=\"worldmap__markerLabel\">Mail</span> <a href=\"mailto:[[+mail]]\">[[+mail]]</a> \n    </div> \n</li>\n"

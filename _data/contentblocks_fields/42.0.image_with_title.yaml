@@ -3,7 +3,7 @@ parent_properties: null
 input: image_with_title
 name: Image
 description: ''
-sortorder: 40
+sortorder: 18
 category: 12
 icon: image
 template: '<img class="imageBanner" src="[[+crops.standard.url]]" alt="[[+title:htmlent]]">'

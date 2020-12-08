@@ -1,0 +1,12 @@
+id: 59
+parent: 18
+parent_properties: '{"key":"galleryId","width":"100"}'
+name: 'Gallery ID'
+description: ''
+sortorder: 54
+icon: paragraph
+template: '[[+value]]'
+properties: '{"use_tinyrte":"false"}'
+availability: ''
+layouts: null
+settings: '[]'

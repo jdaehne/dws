@@ -3,7 +3,7 @@ parent_properties: null
 input: repeater
 name: Logos
 description: ''
-sortorder: 17
+sortorder: 16
 category: 10
 icon: chunk_A
 template: "<div class=\"logoCard\" style=\"background: [[+background:default=`#fff`]]\">\n    [[+title:is=``:then=`[[+logo]]`:else=`<div class=\"logoCard__title\">[[+title]]</div>`]]\n    [[+image]]\n</div>\n\n\n"
