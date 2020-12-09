@@ -208,7 +208,6 @@ $(document).ready(function() {
 	// *
 	$('[data-fancybox]').fancybox({
 		buttons: [
-			"fullScreen",
 			"close"
 		  ]
 	});
