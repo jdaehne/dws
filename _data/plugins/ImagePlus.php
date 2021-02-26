@@ -14,7 +14,7 @@ properties: 'a:0:{}'
  * Collections)
  *
  * Copyright 2013-2015 by Alan Pich <alan.pich@gmail.com>
- * Copyright 2015-2020 by Thomas Jakobi <thomas.jakobi@partout.info>
+ * Copyright 2015-2021 by Thomas Jakobi <thomas.jakobi@partout.info>
  *
  * @package imageplus
  * @subpackage plugin
@@ -22,7 +22,7 @@ properties: 'a:0:{}'
  * @author Alan Pich <alan.pich@gmail.com>
  * @author Thomas Jakobi <thomas.jakobi@partout.info>
  * @copyright Alan Pich 2013-2015
- * @copyright Thomas Jakobi 2015-2020
+ * @copyright Thomas Jakobi 2015-2021
  *
  * @event OnManagerPageBeforeRender
  * @event OnTVInputRenderList

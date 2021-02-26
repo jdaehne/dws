@@ -4,5 +4,5 @@ label: 'Bezeichnung zweite Gruppe'
 xtype: textfield
 description: ''
 sortorder: 30
-value: Samstags
+value: Freitag
 group: 4

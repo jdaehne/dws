@@ -25,7 +25,10 @@ properties: null
 
 $cbCorePath = $modx->getOption('contentblocks.core_path', null, $modx->getOption('core_path').'components/contentblocks/');
 $contentBlocks = $modx->getService('contentblocks','ContentBlocks', $cbCorePath.'model/contentblocks/');
-
+if (!$contentBlocks) {
+    $modx->log(modX::LOG_LEVEL_ERROR, 'Could not load ContentBlocks service from cbFileFormatSize snippet. Reinstalling ContentBlocks might fix this.');
+    return $input;
+}
 $bytes = $input;
 $decimals = (isset($options) && is_numeric($options)) ? $options : 2;
 return $contentBlocks->formatBytes($bytes, $decimals);

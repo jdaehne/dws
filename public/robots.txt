@@ -1,7 +1,7 @@
 User-agent: *
 
 
-Sitemap: http://www.aodigy.com/sitemap.xml
+Sitemap: https://dws-sanierung.de/sitemap.xml
 
 
 Allow: /*.htm$

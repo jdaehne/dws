@@ -63,6 +63,14 @@ if (!$resource) {
     return '';
 }
 
+// Make sure we can load the ContentBlocks service
+$cbCorePath = $modx->getOption('contentblocks.core_path', null, $modx->getOption('core_path').'components/contentblocks/');
+$ContentBlocks = $modx->getService('contentblocks','ContentBlocks', $cbCorePath.'model/contentblocks/');
+if (!$ContentBlocks) {
+    return '';
+}
+$ContentBlocks->loadInputs();
+
 $fld = $modx->getOption('field', $scriptProperties, 0, true);
 $fieldSettingFilter = $modx->getOption('fieldSettingFilter', $scriptProperties, false, true); 
 $limit = $modx->getOption('limit', $scriptProperties, 0, true);
@@ -94,9 +102,6 @@ else {
     if (is_array($counts) && isset($counts[$fld])) {
         $fieldsData = $resource->getProperty('linear', 'contentblocks');
         $fieldsTypeData = array();
-        $cbCorePath = $modx->getOption('contentblocks.core_path', null, $modx->getOption('core_path').'components/contentblocks/'); 
-        $ContentBlocks = $modx->getService('contentblocks','ContentBlocks', $cbCorePath.'model/contentblocks/');
-        $ContentBlocks->loadInputs();
         $field = $modx->getObject('cbField', $fld);
 
         if(!($field instanceof cbField)) {

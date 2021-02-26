@@ -6,7 +6,7 @@ category: 14
 icon: site-cb-image-compare
 icon_type: custom
 columns: '[{"reference":"main","width":"33"},{"reference":"imageLeft","width":33},{"reference":"imageRight","width":33}]'
-template: "<!-- imageCompare -->\n<div class=\"padding-top-[[+paddingTop]] padding-bottom-[[+paddingBottom]] nav-section\" [[+id:notempty=`id=\"[[+id]]\"`]]>\n    <div class=\"container\">\n        <div class=\"imageCompare\">\n            <div class=\"js-image-compare\">\n                [[+imageLeft]]\n                [[+imageRight]]\n            </div>\n            <div class=\"imageCompare__content\">\n                <div class=\"imageCompare__inner\">\n                    [[+main]]\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+template: "<div class=\"padding-top-[[+paddingTop]] padding-bottom-[[+paddingBottom]] nav-section\" [[+id:notempty=`id=\"[[+id]]\"`]]>\n    <div class=\"container\">\n        <div class=\"imageCompare\">\n            <div class=\"js-image-compare\">\n                [[+imageLeft]]\n                [[+imageRight]]\n            </div>\n            <div class=\"imageCompare__content\">\n                <div class=\"imageCompare__inner\">\n                    [[+main]]\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
 availability: '[{"field":"context","value":"hidden"}]'
 times_per_page: 0
 layout_only_nested: '0'

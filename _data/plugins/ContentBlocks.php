@@ -24,6 +24,10 @@ $assetsUrl = $modx->getOption('contentblocks.assets_url', null, $modx->getOption
  * @var array $scriptProperties
  */
 $ContentBlocks = $modx->getService('contentblocks', 'ContentBlocks', $corePath . 'model/contentblocks/');
+if (!$ContentBlocks) {
+    $modx->log(modX::LOG_LEVEL_ERROR, 'Could not load ContentBlocks service from plugin. Reinstalling ContentBlocks might fix this.');
+    return;
+}
 
 switch ($modx->event->name) {
     case 'OnDocFormPrerender':
@@ -40,7 +44,9 @@ switch ($modx->event->name) {
         $acceptedResourceTypes = $modx->getOption('contentblocks.accepted_resource_types', null, 'modDocument,mgResource');
 
         // Fake the wctx variable for loading the working context to get settings
-        if (!isset($_GET['wctx'])) $_GET['wctx'] = $resource->get('context_key');
+        if (!isset($_GET['wctx'])) {
+            $_GET['wctx'] = $resource->get('context_key');
+        }
 
         // If we got the working context, get some settings
         if ($modx->controller->loadWorkingContext()) {
@@ -57,6 +63,16 @@ switch ($modx->event->name) {
                 $acceptedType = true;
             }
         }
+
+        /** @var modTemplate $template */
+        if ($template = $resource->getOne('Template')) {
+            $props = $template->getProperties();
+            $disabledForTemplate = array_key_exists('contentblocks.disabled', $props) ? (int)$props['contentblocks.disabled'] : null;
+            if ($disabledForTemplate !== null) {
+                $disabled = $disabledForTemplate;
+            }
+        }
+
 
         // If contentblocks is disabled or this is not an accepted resource, we can stop here.
         if ($disabled || !$acceptedType) {
