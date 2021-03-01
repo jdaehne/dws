@@ -1,5 +1,5 @@
 <?php return array (
-  '21c74eea955d809465d9d150a6968812' => 
+  '45ef2d47b2d98592c3ddf28417f231d2' => 
   array (
     'criteria' => 
     array (
@@ -12,7 +12,7 @@
       'assets_path' => '{assets_path}components/contentblocks/',
     ),
   ),
-  '59c5c7e62f10d2d5740c32d791c8fbaf' => 
+  'e6bf126c936c471cccfca5bdd590f019' => 
   array (
     'criteria' => 
     array (
@@ -25,7 +25,7 @@
       'groupname' => 'contentblocks',
     ),
   ),
-  '849921a1f80d9c0fc91008fa058f3f52' => 
+  '91d32a27f39c0028ed26a362d1b07d3d' => 
   array (
     'criteria' => 
     array (
@@ -38,7 +38,7 @@
       'groupname' => 'contentblocks',
     ),
   ),
-  'ef8a1745e99936f46758c763aec515e5' => 
+  '6f87d4b86dbfe051503f54d8e7df5668' => 
   array (
     'criteria' => 
     array (
@@ -51,7 +51,7 @@
       'groupname' => 'contentblocks',
     ),
   ),
-  'eb0b1fdd2a4719bdb2a72b61828fe284' => 
+  'a5f81c927fdf11804702b2cf58ba2959' => 
   array (
     'criteria' => 
     array (
@@ -67,7 +67,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '85f6907a26b4c57d70467f076155a5c3' => 
+  'c7856551d6fcbe99fdda961f85d91e42' => 
   array (
     'criteria' => 
     array (
@@ -83,7 +83,7 @@
       'editedon' => '2020-02-21 13:05:34',
     ),
   ),
-  '284a05dbdb05c7a93a77bf66303a8c0b' => 
+  '5b4ca300a89cf6e28e465f59f6e5efc2' => 
   array (
     'criteria' => 
     array (
@@ -99,7 +99,7 @@
       'editedon' => '2020-02-21 13:05:41',
     ),
   ),
-  '1e8bb33301a4c62a7d39b0e63d521cb9' => 
+  '2c6805f93371e9c4299f03132793ed58' => 
   array (
     'criteria' => 
     array (
@@ -115,7 +115,7 @@
       'editedon' => '2020-02-21 13:05:27',
     ),
   ),
-  '259d7da0d94b92a30f63dcfd220cd45b' => 
+  '7bc07cd7dd57618c6421c22815d6613b' => 
   array (
     'criteria' => 
     array (
@@ -131,7 +131,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'c239b5700fa682dffe9a9865a25b4232' => 
+  'efc692c90940ad2c4d31e36200e1af74' => 
   array (
     'criteria' => 
     array (
@@ -147,7 +147,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '65152498990383fcd3fe2d1bfa9cf3e5' => 
+  '2b4845529227da75c9c02876ac7ed10d' => 
   array (
     'criteria' => 
     array (
@@ -163,7 +163,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'aaea1c8f9a6df0a7b24c82fd34b934a6' => 
+  '2eaf01bc9a884e28fe22782827e547f0' => 
   array (
     'criteria' => 
     array (
@@ -179,7 +179,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '87baebd27768a176f1fddb26f8ac375f' => 
+  'dc3d2632fa29a654fa069a9a7bd9e525' => 
   array (
     'criteria' => 
     array (
@@ -195,7 +195,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '93678e56af345b4cf2c9553b17909500' => 
+  '2afd62488e3cc6e127d11cea51392278' => 
   array (
     'criteria' => 
     array (
@@ -211,7 +211,7 @@
       'editedon' => '2020-02-21 13:05:11',
     ),
   ),
-  '6a948fd7b53210f8bfb64509dcd0484a' => 
+  '114f16d37a04e2010fff05555176b212' => 
   array (
     'criteria' => 
     array (
@@ -227,7 +227,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '09b29564c1a483179410dacb09ff6b99' => 
+  'fa3ab153cd63e33606f10ab39d826b9b' => 
   array (
     'criteria' => 
     array (
@@ -243,7 +243,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'f4da92bf6978971991ac8faf7cfc8dac' => 
+  '62721c7d454660953138a6b4660d46af' => 
   array (
     'criteria' => 
     array (
@@ -259,7 +259,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '3670a1b967bc84e31b9870a98e0a85cf' => 
+  'fb282617a4ac827328a205cdeb2d5cca' => 
   array (
     'criteria' => 
     array (
@@ -275,7 +275,7 @@
       'editedon' => '2020-02-21 13:05:20',
     ),
   ),
-  '32917ed7e31c5a92e796adf5e4d97b02' => 
+  '4c22369006574dd1308d3eb43ce7301f' => 
   array (
     'criteria' => 
     array (
@@ -291,7 +291,7 @@
       'editedon' => '2020-02-21 13:05:51',
     ),
   ),
-  '0691e58e1279e813e3f4934584900be2' => 
+  'ad712deea7451fe84019fdc140bd3a8c' => 
   array (
     'criteria' => 
     array (
@@ -307,7 +307,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '5840719469b81fd3009a268f2b2530f9' => 
+  'a385b23c6ca84f3376e358a9d3ab2ad6' => 
   array (
     'criteria' => 
     array (
@@ -323,7 +323,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '3a4d4a3933bd07762aa42bf71c01e8f8' => 
+  '6130b4c1f9054b8137507cad808ecd39' => 
   array (
     'criteria' => 
     array (
@@ -339,7 +339,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'a5b14d53eb920bff985c79d4ae8c8056' => 
+  '38d7b599b7016142bf88c229fddbd35f' => 
   array (
     'criteria' => 
     array (
@@ -355,7 +355,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '161573293d392c71e408555152d6e43b' => 
+  '89ad6f8ee7343449602f1db9b8fee340' => 
   array (
     'criteria' => 
     array (
@@ -371,7 +371,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '3dce01060f564cf200ede60bdefa15a9' => 
+  '4c5801fc2c608918a450c214735a0ee6' => 
   array (
     'criteria' => 
     array (
@@ -387,7 +387,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'bb0df016ac5ae324ed4967fff41af33b' => 
+  'c4bec8553d8658013649a5afd657daf7' => 
   array (
     'criteria' => 
     array (
@@ -403,7 +403,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '3d06b05b650dc4da4766a7b8e3f26a1f' => 
+  '9c2e6974c8c0e294c011cc6170f5c2fe' => 
   array (
     'criteria' => 
     array (
@@ -419,7 +419,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '34be7b8fbfa53c7b2e9383b49c9019cd' => 
+  '8c94d64b0bbe68235a68fce54c51ec54' => 
   array (
     'criteria' => 
     array (
@@ -435,7 +435,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '486ca837aaf780eb07d490a245d69682' => 
+  '6cc5ae47f7857d5207a4566164de9dae' => 
   array (
     'criteria' => 
     array (
@@ -453,7 +453,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'f5b8a02b525a9b8ec2043fa86cd7f23f' => 
+  '87900e4c475bd34bc5c1df8426a1bc07' => 
   array (
     'criteria' => 
     array (
@@ -469,7 +469,7 @@
       'editedon' => '2020-02-21 13:04:12',
     ),
   ),
-  'b58e84d4f2d0cc4cb6fdaf23539eb839' => 
+  '32136f25c4bc1bf602c464b42adcb76e' => 
   array (
     'criteria' => 
     array (
@@ -485,7 +485,7 @@
       'editedon' => '2020-02-21 13:04:15',
     ),
   ),
-  '3463c9fc4ef0cfc3936e3ebc68f1fb01' => 
+  '5f445ff4a3add0786a0e97e8584414d7' => 
   array (
     'criteria' => 
     array (
@@ -501,7 +501,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '9074acea297c31c7d8d4d5110c48d9a9' => 
+  'd8440645648d23c971231a7626e6f7f8' => 
   array (
     'criteria' => 
     array (
@@ -517,7 +517,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '031b36488c77f3eff7071fbd08c23405' => 
+  '53c6e4e5796c699d4686431b27af6c7d' => 
   array (
     'criteria' => 
     array (
@@ -533,7 +533,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '24933a3bf1c538c622d2ab1a30e5aee9' => 
+  '93443e5db4115d0cc1a0e1c23fa59778' => 
   array (
     'criteria' => 
     array (
@@ -549,7 +549,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'bd7f1a2bba6210eec79591e946833a9d' => 
+  '1210201a94452681df2e0fe8796dc1c0' => 
   array (
     'criteria' => 
     array (
@@ -565,7 +565,7 @@
       'editedon' => '2020-02-21 13:05:05',
     ),
   ),
-  '87a30ece2222cd8b053ec3976688a61b' => 
+  '81560101affdd799b1d3200ff2d64cf7' => 
   array (
     'criteria' => 
     array (
@@ -581,7 +581,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'f67e7525ac6bb77e048fd977186cd9ef' => 
+  '122b109b8ba893a6d193656c0ab39f06' => 
   array (
     'criteria' => 
     array (
@@ -597,7 +597,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '72fd9ad2c720275fb0fc24890a7f1cbe' => 
+  '25c12ee6b1e4bb4a0e05f241172f282b' => 
   array (
     'criteria' => 
     array (
@@ -613,7 +613,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '5b9557fd545e1dfad87ff77168510b05' => 
+  '0d06cf494ad1eee20212694f6fa83caf' => 
   array (
     'criteria' => 
     array (
@@ -629,7 +629,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'cf9c3e8314430d6c74f931601d65f2be' => 
+  'cde63b08ed25ddca2ec49c8ded5daa9c' => 
   array (
     'criteria' => 
     array (
@@ -645,7 +645,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  'cabfb13bb1b536cf28de5b9dbcc8dd0a' => 
+  '4d6873ed46863a66086871632519bc06' => 
   array (
     'criteria' => 
     array (
@@ -661,7 +661,7 @@
       'editedon' => '0000-00-00 00:00:00',
     ),
   ),
-  '17e63fc38b114334ac3885dd99a0b978' => 
+  'f16ef05d1dc96a9b7e52b618f2fc6102' => 
   array (
     'criteria' => 
     array (
@@ -676,7 +676,7 @@
       'lexicon' => 'contentblocks:permissions',
     ),
   ),
-  'ab68c0d9a0af8a85c790f924737b581d' => 
+  'a3d6a9192eb8fd22c0cebbf8fae5f04d' => 
   array (
     'criteria' => 
     array (
@@ -692,7 +692,7 @@
       'value' => 1,
     ),
   ),
-  '290731b3fd6fe0882b78a9d955bdfe0e' => 
+  'c44a14b2fba0c9e9caf107a0c6fe737b' => 
   array (
     'criteria' => 
     array (
@@ -708,7 +708,7 @@
       'value' => 1,
     ),
   ),
-  '466155f689e7c5e6b37b242b82922522' => 
+  'a03741f3c595b0872c2a00a41f79e4cb' => 
   array (
     'criteria' => 
     array (
@@ -724,7 +724,7 @@
       'value' => 1,
     ),
   ),
-  '7edfc3c34b016492de2237ef0d14ffb4' => 
+  '420e1ad46101d89b15a90cc7af55a0a3' => 
   array (
     'criteria' => 
     array (
@@ -740,7 +740,7 @@
       'value' => 1,
     ),
   ),
-  '6ef95e70c7e5eea4f71ca786e387221a' => 
+  '20e7b304d73b7aab7d471ea719b79a4e' => 
   array (
     'criteria' => 
     array (
@@ -756,7 +756,7 @@
       'value' => 1,
     ),
   ),
-  '6425ba80a588752291ab58f5924deca3' => 
+  '8ad212293c3840d13f9be4b738a55904' => 
   array (
     'criteria' => 
     array (
@@ -772,7 +772,7 @@
       'value' => 1,
     ),
   ),
-  '235b20389bd29fa6cf3f465cdd22be32' => 
+  'd48a9f22e0885af68eee86f5b6bc223b' => 
   array (
     'criteria' => 
     array (
@@ -788,7 +788,7 @@
       'value' => 1,
     ),
   ),
-  '05b79d640ea4e7cc49f9f0e0a1b71ca5' => 
+  'f27129f37d61cefb343f2b54c8f1f133' => 
   array (
     'criteria' => 
     array (
@@ -804,7 +804,7 @@
       'value' => 1,
     ),
   ),
-  '2751eeb599bf372c6f40e1a6779687f2' => 
+  '2ba418d578442cc1053f70ea40e6ea93' => 
   array (
     'criteria' => 
     array (
@@ -820,7 +820,7 @@
       'value' => 1,
     ),
   ),
-  '17606647fa80dbd0b6828051a3c4995a' => 
+  '3aec5b06d7bea671b4cbfaa77178f61c' => 
   array (
     'criteria' => 
     array (
@@ -836,7 +836,7 @@
       'value' => 1,
     ),
   ),
-  '4c2cbb28027c96c4d56ac1e2a6ce18ab' => 
+  '6916d5a9d1165cfee906fbd4d90ab4f6' => 
   array (
     'criteria' => 
     array (
@@ -852,7 +852,7 @@
       'value' => 1,
     ),
   ),
-  '50e882253649202d9fc0880445be8cdd' => 
+  '19e3e3314204fc521d63ff6f97812196' => 
   array (
     'criteria' => 
     array (
@@ -868,7 +868,7 @@
       'value' => 1,
     ),
   ),
-  '251478005bda0bf4abe5693aa6aeed34' => 
+  '841150f497e091867a236a9b930d536a' => 
   array (
     'criteria' => 
     array (
@@ -884,7 +884,7 @@
       'value' => 1,
     ),
   ),
-  'ac81e81d3ea502e0d90a472b852ffe77' => 
+  '37aa6d41b8400cb2f821017f6f0e51bd' => 
   array (
     'criteria' => 
     array (
@@ -900,7 +900,7 @@
       'value' => 1,
     ),
   ),
-  'ab881ac8da74479789049ed4c5cd3181' => 
+  '1715967c71eea031067da79f8581edcf' => 
   array (
     'criteria' => 
     array (
@@ -916,7 +916,7 @@
       'value' => 1,
     ),
   ),
-  '1c57c8b875edce89fc677b2aa000b12c' => 
+  'e9019520b0aecdd34d1b340c58c3a7a7' => 
   array (
     'criteria' => 
     array (
@@ -932,7 +932,7 @@
       'value' => 1,
     ),
   ),
-  'c22d91fd1d500ac44cf8e67cba6c3644' => 
+  '1fb3ca42a9913925cd619dffa4bf8d5c' => 
   array (
     'criteria' => 
     array (
@@ -948,7 +948,7 @@
       'value' => 1,
     ),
   ),
-  '04deb88ea8a38e65fa78c4566b51f38d' => 
+  '65e19684f361b394f24e9e03db7bc325' => 
   array (
     'criteria' => 
     array (
@@ -964,7 +964,7 @@
       'value' => 1,
     ),
   ),
-  '5d1b575508a660aa930e2d9df0cad62d' => 
+  'a23669da127833e29ce92c017f93aec5' => 
   array (
     'criteria' => 
     array (
@@ -980,7 +980,7 @@
       'value' => 1,
     ),
   ),
-  'b35896e9cd4447f844382dbb31f35bd0' => 
+  'c34a0e0096ce831737de6659514977fb' => 
   array (
     'criteria' => 
     array (
@@ -996,7 +996,7 @@
       'value' => 1,
     ),
   ),
-  'd8bc8c975ad3d77bc562e15b6c409832' => 
+  'b2d89b712c86e529f453229095b0d329' => 
   array (
     'criteria' => 
     array (
@@ -1012,7 +1012,7 @@
       'value' => 1,
     ),
   ),
-  '7a99d65af331fb453cba7a692aee3aec' => 
+  '3a90c2c19df08f696679039f7e92ff58' => 
   array (
     'criteria' => 
     array (
@@ -1028,7 +1028,7 @@
       'value' => 1,
     ),
   ),
-  '0c86c5fe950870f38c45e1234701b74b' => 
+  '0bd7603be6dc25ce8e786598288fce52' => 
   array (
     'criteria' => 
     array (
@@ -1044,7 +1044,7 @@
       'value' => 1,
     ),
   ),
-  '2eaae2cd0f639971a037a064fa5503af' => 
+  'de5e00d5b8808b9af672121a03b54abd' => 
   array (
     'criteria' => 
     array (
@@ -1060,7 +1060,7 @@
       'value' => 1,
     ),
   ),
-  'c71f9d132d708a054d8432dd3cf94e21' => 
+  '79b6d267ea99624292e2c2652dadd323' => 
   array (
     'criteria' => 
     array (
@@ -1076,7 +1076,7 @@
       'value' => 1,
     ),
   ),
-  '298fbd9a7e128c1e78bc0b3052947808' => 
+  'cdf4686c6e08e18fd67c45691edf79b5' => 
   array (
     'criteria' => 
     array (
@@ -1092,7 +1092,7 @@
       'value' => 1,
     ),
   ),
-  'e5c98992ac860515a11c3d8dcc95f622' => 
+  'd78051268e0867edc2f9604ca3218908' => 
   array (
     'criteria' => 
     array (
@@ -1108,7 +1108,7 @@
       'value' => 1,
     ),
   ),
-  '4501ae4b37749ba53a35e5f82916fc08' => 
+  '5e616fc1ef2cd17f4fe1e71ae016a505' => 
   array (
     'criteria' => 
     array (
@@ -1124,7 +1124,7 @@
       'value' => 1,
     ),
   ),
-  '86a7dda17bdb51eaba35309e885c05d1' => 
+  'aab16d1270f8511c7ec092b18c89bfe3' => 
   array (
     'criteria' => 
     array (
@@ -1140,7 +1140,7 @@
       'value' => 1,
     ),
   ),
-  '5476f884d48190a82eed2fffd88c46fd' => 
+  'f12e85127991d026e4b6dbe7f7b00f88' => 
   array (
     'criteria' => 
     array (
@@ -1156,7 +1156,7 @@
       'value' => 1,
     ),
   ),
-  '6eef579a286bbd283d2d74526c15d4d9' => 
+  '5fbd5dcf5e6fdc086ab2921b459f1ee1' => 
   array (
     'criteria' => 
     array (
@@ -1172,7 +1172,7 @@
       'value' => 1,
     ),
   ),
-  '256c922e2bd5b7250867eab313f88f4b' => 
+  '16794b67886cd87cfe210dced2b587ae' => 
   array (
     'criteria' => 
     array (
@@ -1188,7 +1188,7 @@
       'value' => 1,
     ),
   ),
-  '69988536dc7c0aebd5fb5e3225b62b17' => 
+  '934d3022fdd8e9b70535c45f4d56cf19' => 
   array (
     'criteria' => 
     array (
@@ -1204,7 +1204,7 @@
       'value' => 1,
     ),
   ),
-  '13dd502a45dbdf198bbc9b52340902a0' => 
+  '33feeee139740530022f082e1a1b0ed2' => 
   array (
     'criteria' => 
     array (
@@ -1220,7 +1220,7 @@
       'value' => 1,
     ),
   ),
-  '29522bbf5b0d25cd2b02a3a2fa120e76' => 
+  '86361b061054b6b7c14d0620ee8cbdd7' => 
   array (
     'criteria' => 
     array (
@@ -1236,7 +1236,7 @@
       'value' => 1,
     ),
   ),
-  '29c08d7125009bb4ef24981090bf8100' => 
+  '3538f922c9db2cdb40ed71aad19b48c7' => 
   array (
     'criteria' => 
     array (
@@ -1251,11 +1251,11 @@
       'parent' => 0,
       'template' => 9,
       'class' => '',
-      'data' => '{"contentblocks_categories":true,"contentblocks_categories_delete":true,"contentblocks_categories_edit":true,"contentblocks_categories_export":true,"contentblocks_categories_import":true,"contentblocks_categories_new":true,"contentblocks_categories_save":true,"contentblocks_component":true,"contentblocks_defaults":true,"contentblocks_defaults_delete":true,"contentblocks_defaults_edit":true,"contentblocks_defaults_new":true,"contentblocks_defaults_save":true,"contentblocks_fields":true,"contentblocks_fields_delete":true,"contentblocks_fields_edit":true,"contentblocks_fields_export":true,"contentblocks_fields_import":true,"contentblocks_fields_new":true,"contentblocks_fields_save":true,"contentblocks_layouts":true,"contentblocks_layouts_delete":true,"contentblocks_layouts_edit":true,"contentblocks_layouts_export":true,"contentblocks_layouts_import":true,"contentblocks_layouts_new":true,"contentblocks_layouts_save":true,"contentblocks_rebuild_content":true,"contentblocks_templates":true,"contentblocks_templates_delete":true,"contentblocks_templates_edit":true,"contentblocks_templates_export":true,"contentblocks_templates_import":true,"contentblocks_templates_new":true,"contentblocks_templates_save":true}',
+      'data' => '{"contentblocks_categories":true,"contentblocks_categories_delete":true,"contentblocks_categories_edit":true,"contentblocks_categories_export":true,"contentblocks_categories_import":true,"contentblocks_categories_new":true,"contentblocks_categories_save":true,"contentblocks_component":true,"contentblocks_defaults":true,"contentblocks_defaults_delete":true,"contentblocks_defaults_edit":true,"contentblocks_defaults_new":true,"contentblocks_defaults_save":true,"contentblocks_fields":true,"contentblocks_fields_delete":true,"contentblocks_fields_edit":true,"contentblocks_fields_export":true,"contentblocks_fields_import":true,"contentblocks_fields_new":true,"contentblocks_fields_save":true,"contentblocks_layouts":true,"contentblocks_layouts_delete":true,"contentblocks_layouts_edit":true,"contentblocks_layouts_export":true,"contentblocks_layouts_import":true,"contentblocks_layouts_new":true,"contentblocks_layouts_save":true,"contentblocks_rebuild_content":true,"contentblocks_templates":true,"contentblocks_templates_delete":true,"contentblocks_templates_edit":true,"contentblocks_templates_export":true,"contentblocks_templates_import":true,"contentblocks_templates_new":true,"contentblocks_templates_save":true,"formit":true,"formit_encryptions":false}',
       'lexicon' => 'contentblocks:permissions',
     ),
   ),
-  '9a14064d15cc696f415841431665b6c7' => 
+  '2365dbbaf87ef7b52f63cad31fe6840b' => 
   array (
     'criteria' => 
     array (
@@ -1275,7 +1275,7 @@
       'namespace' => 'contentblocks',
     ),
   ),
-  '35cb78dc12dd46139094cd0e321108d8' => 
+  '505181e024db68c6992c1fe90f159e8a' => 
   array (
     'criteria' => 
     array (
@@ -1289,7 +1289,7 @@
       'rank' => 0,
     ),
   ),
-  '2c844d7e7df3f4a0f27a7f8c3830526a' => 
+  '46942a504c8065123355d8d3e32136fe' => 
   array (
     'criteria' => 
     array (
@@ -1436,7 +1436,7 @@ else {
 return $else;',
     ),
   ),
-  '36c6740d9ef8155eedaa254189040603' => 
+  '00106d6f0b4299f3d7191ff1e108bdb8' => 
   array (
     'criteria' => 
     array (
@@ -1921,7 +1921,7 @@ if(!$returnAsJSON && $showDebug) {
 return $output;',
     ),
   ),
-  'f67db98c78b60646c2fd17d4389c8d81' => 
+  'a5db587bb7c84f183e0b48b7446af892' => 
   array (
     'criteria' => 
     array (
@@ -1996,7 +1996,7 @@ $decimals = (isset($options) && is_numeric($options)) ? $options : 2;
 return $contentBlocks->formatBytes($bytes, $decimals);',
     ),
   ),
-  '35e75082f986c58e4ef31dbb39693ba7' => 
+  '8b64fc1c097befc9eba3caa36da396db' => 
   array (
     'criteria' => 
     array (
@@ -2050,7 +2050,9 @@ switch ($modx->event->name) {
         $acceptedResourceTypes = $modx->getOption(\'contentblocks.accepted_resource_types\', null, \'modDocument,mgResource\');
 
         // Fake the wctx variable for loading the working context to get settings
-        if (!isset($_GET[\'wctx\'])) $_GET[\'wctx\'] = $resource->get(\'context_key\');
+        if (!isset($_GET[\'wctx\'])) {
+            $_GET[\'wctx\'] = $resource->get(\'context_key\');
+        }
 
         // If we got the working context, get some settings
         if ($modx->controller->loadWorkingContext()) {
@@ -2067,6 +2069,16 @@ switch ($modx->event->name) {
                 $acceptedType = true;
             }
         }
+
+        /** @var modTemplate $template */
+        if ($template = $resource->getOne(\'Template\')) {
+            $props = $template->getProperties();
+            $disabledForTemplate = array_key_exists(\'contentblocks.disabled\', $props) ? (int)$props[\'contentblocks.disabled\'] : null;
+            if ($disabledForTemplate !== null) {
+                $disabled = $disabledForTemplate;
+            }
+        }
+
 
         // If contentblocks is disabled or this is not an accepted resource, we can stop here.
         if ($disabled || !$acceptedType) {
@@ -2275,7 +2287,9 @@ switch ($modx->event->name) {
         $acceptedResourceTypes = $modx->getOption(\'contentblocks.accepted_resource_types\', null, \'modDocument,mgResource\');
 
         // Fake the wctx variable for loading the working context to get settings
-        if (!isset($_GET[\'wctx\'])) $_GET[\'wctx\'] = $resource->get(\'context_key\');
+        if (!isset($_GET[\'wctx\'])) {
+            $_GET[\'wctx\'] = $resource->get(\'context_key\');
+        }
 
         // If we got the working context, get some settings
         if ($modx->controller->loadWorkingContext()) {
@@ -2292,6 +2306,16 @@ switch ($modx->event->name) {
                 $acceptedType = true;
             }
         }
+
+        /** @var modTemplate $template */
+        if ($template = $resource->getOne(\'Template\')) {
+            $props = $template->getProperties();
+            $disabledForTemplate = array_key_exists(\'contentblocks.disabled\', $props) ? (int)$props[\'contentblocks.disabled\'] : null;
+            if ($disabledForTemplate !== null) {
+                $disabled = $disabledForTemplate;
+            }
+        }
+
 
         // If contentblocks is disabled or this is not an accepted resource, we can stop here.
         if ($disabled || !$acceptedType) {
@@ -2458,7 +2482,7 @@ HTML
 return;',
     ),
   ),
-  '15c7e6a079abb46354ea9c196427fb5d' => 
+  '83d4edecdbb931dc07cbd69c7c430eeb' => 
   array (
     'criteria' => 
     array (
@@ -2473,7 +2497,7 @@ return;',
       'propertyset' => 0,
     ),
   ),
-  'c22addff7dbfe6060f0aac2af5ff1d70' => 
+  'bd387f3eda1b154b1360332f177393d3' => 
   array (
     'criteria' => 
     array (
@@ -2488,7 +2512,7 @@ return;',
       'propertyset' => 0,
     ),
   ),
-  'b1d9099a9655dde4dafa3e7aaf15048e' => 
+  'dd44e82a519ff5a69606ad3d2b61de3e' => 
   array (
     'criteria' => 
     array (
