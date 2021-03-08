@@ -1,0 +1,8 @@
+id: 20
+key: telegramUser
+label: 'Telegram Benutzername'
+xtype: textfield
+description: ''
+sortorder: 23
+value: DWS_Sanierungsservice_GmbH
+group: 2
