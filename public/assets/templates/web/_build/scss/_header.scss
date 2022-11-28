@@ -62,6 +62,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 2rem;
 
         @media (max-width: 700px) {
             padding-top: 1rem;
@@ -69,19 +70,24 @@
     }
 
     &__logo  {
-        display: block;
-        width: 284px;
-        height: auto;
+        width: 360px;
 
         @media (max-width: 700px) {
-            width: 200px;
+            width: 250px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
         }
     }
 
     &__nav {
         margin-left: auto;
         text-transform: uppercase;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         font-family: $fontSemiBold;
         letter-spacing: .036em;
 
@@ -131,11 +137,15 @@
         }
 
         .header__logo img {
-            width: 200px;
+            width: 250px;
         }
 
         .header__nav {
             padding-top: 0;
+        }
+
+        .header__inner {
+            padding-top: 1rem;
         }
     }
 
