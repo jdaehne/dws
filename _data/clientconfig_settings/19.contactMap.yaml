@@ -4,6 +4,6 @@ label: 'Map Image'
 xtype: modx-panel-tv-image
 description: ''
 sortorder: 100
-value: bilder/anfahrtsskizze.png
+value: bilder/anfahtsskizze-1.png
 group: 2
 source: 2
