@@ -3,6 +3,7 @@ parent: 33
 parent_properties: '{"key":"left","width":"50"}'
 name: 'X-Position (in Percent)'
 description: ''
+content_desc: null
 sortorder: 32
 icon: paragraph
 template: '[[+value]]'

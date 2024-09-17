@@ -3,6 +3,7 @@ parent_properties: null
 input: repeater
 name: Charts
 description: ''
+content_desc: null
 sortorder: 6
 category: 6
 icon: chunk_A

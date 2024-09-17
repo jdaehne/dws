@@ -4,6 +4,7 @@ parent_properties: '{"key":"image","width":"70"}'
 input: image_with_title
 name: Popup-Image
 description: ''
+content_desc: null
 sortorder: 4
 icon: image
 template: '<a class="logoCard__link" href="[[+crops.standard.url]]" data-fancybox data-caption="[[+title:htmlent]]"></a>'

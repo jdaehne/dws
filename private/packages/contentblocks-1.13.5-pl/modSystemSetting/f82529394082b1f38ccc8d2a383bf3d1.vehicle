@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'contentblocks',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ffd254fbf0db359154cc320cda81a575',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f82529394082b1f38ccc8d2a383bf3d1',
+  'native_key' => 'contentblocks.image.create_directories',
+  'object' => '{"key":"contentblocks.image.create_directories","value":false,"xtype":"modx-combo-boolean","namespace":"contentblocks","area":"Input: Image","editedon":1725889366}',
+);

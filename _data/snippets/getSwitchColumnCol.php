@@ -1,7 +1,7 @@
 id: 17
 name: getSwitchColumnCol
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

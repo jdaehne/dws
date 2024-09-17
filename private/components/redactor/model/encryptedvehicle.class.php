@@ -1,10 +1,13 @@
 <?php
+
+use Psr\Http\Message\ResponseInterface;
+
 class_alias('encryptedVehicle', 'xPDO\Transport\encryptedVehicle');
 class encryptedVehicle extends xPDOObjectVehicle
 {
     public $class = 'encryptedVehicle';
-    const version = '2.1.0';
-    const cipher = 'AES-256-CBC';
+    public const version = '3.0.0';
+    public const cipher = 'AES-256-CBC';
 
 
     /**
@@ -178,21 +181,47 @@ class encryptedVehicle extends xPDOObjectVehicle
                 );
 
                 $response = $provider->request($endpoint, 'POST', $params);
-                if ($response->isError()) {
-                    $msg = $response->getError();
-                    $transport->xpdo->log(xPDO::LOG_LEVEL_ERROR, $msg);
-                } else {
-                    $data = $response->toXml();
-                    if (!empty($data->key)) {
-                        $key = base64_decode((string)$data->key);
-                    } elseif (!empty($data->message)) {
-                        $transport->xpdo->log(xPDO::LOG_LEVEL_ERROR, $data->message);
+                // On MODX 2.x and up to 3.0.0-alpha2, providers use modRestClient
+                if ($response instanceof modRestResponse) {
+                    if ($response->isError()) {
+                        $msg = $response->getError();
+                        $transport->xpdo->log(xPDO::LOG_LEVEL_ERROR, (string)$msg);
                     }
+                    else {
+                        $data = $response->toXml();
+                        if (!empty($data->key)) {
+                            return base64_decode((string)$data->key);
+                        }
+
+                        if (!empty($data->message)) {
+                            $transport->xpdo->log(xPDO::LOG_LEVEL_ERROR, (string)$data->message);
+                        }
+                    }
+                }
+                // MODX 3.0.0-alpha3 and up, providers return a PSR response
+                elseif ($response instanceof ResponseInterface) {
+                    $raw = $response->getBody()->getContents();
+                    $disableEntities = libxml_disable_entity_loader();
+                    $internalErrors = libxml_use_internal_errors(true);
+                    $data = simplexml_load_string($raw);
+                    libxml_disable_entity_loader($disableEntities);
+                    libxml_use_internal_errors($internalErrors);
+
+                    if (!empty($data->key)) {
+                        return base64_decode((string)$data->key);
+                    }
+
+                    if (!empty($data->message)) {
+                        $transport->xpdo->log(xPDO::LOG_LEVEL_ERROR, (string)$data->message);
+                    }
+                }
+                else {
+                    $transport->xpdo->log(xPDO::LOG_LEVEL_ERROR, 'Failed to send decode request');
                 }
             }
         }
 
-        return $key;
+        return false;
     }
 
 }

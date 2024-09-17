@@ -3,6 +3,7 @@ parent_properties: null
 input: repeater
 name: Slider
 description: ''
+content_desc: null
 sortorder: 15
 category: 9
 icon: chunk_A

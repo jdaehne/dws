@@ -3,6 +3,7 @@ parent_properties: null
 input: heading
 name: Title
 description: ''
+content_desc: null
 sortorder: 52
 category: 15
 icon: heading

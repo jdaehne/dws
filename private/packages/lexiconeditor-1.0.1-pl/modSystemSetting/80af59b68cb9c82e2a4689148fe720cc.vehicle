@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'lexiconeditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3de99aede67d8b42e123ac8381fda643',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '80af59b68cb9c82e2a4689148fe720cc',
+  'native_key' => 'lexiconeditor.namespace',
+  'object' => '{"key":"lexiconeditor.namespace","value":"","xtype":"modx-combo-namespace","namespace":"lexiconeditor","area":"system","editedon":null}',
+);

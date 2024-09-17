@@ -3,6 +3,7 @@ parent_properties: null
 input: textarea
 name: Headline
 description: ''
+content_desc: null
 sortorder: 43
 category: 13
 icon: paragraph

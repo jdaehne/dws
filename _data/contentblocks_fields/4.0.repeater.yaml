@@ -3,6 +3,7 @@ parent_properties: null
 input: repeater
 name: Teaser
 description: ''
+content_desc: null
 sortorder: 4
 category: 5
 icon: chunk_A

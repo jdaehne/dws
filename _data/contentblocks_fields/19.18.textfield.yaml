@@ -3,6 +3,7 @@ parent: 18
 parent_properties: '{"key":"title","width":"100"}'
 name: Title
 description: ''
+content_desc: null
 sortorder: 19
 icon: paragraph
 template: '[[+value]]'

@@ -1,0 +1,10 @@
+id: 14
+name: bigbrother.main.name
+description: bigbrother.main.desc
+type: file
+content: '[[++core_path]]components/bigbrother/elements/widgets/main.class.php'
+namespace: bigbrother
+lexicon: 'bigbrother:default'
+size: full
+name_trans: 'Google Analytics - Main'
+description_trans: 'Big Brother - Full-width main widget encompassing visits, key metrics, acquisition and popular pages insights.'

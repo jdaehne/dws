@@ -1,0 +1,9 @@
+id: 19
+name: bigbrother.top_countries.name
+description: bigbrother.top_countries.desc
+type: file
+content: '[[++core_path]]components/bigbrother/elements/widgets/topcountries.class.php'
+namespace: bigbrother
+lexicon: 'bigbrother:default'
+name_trans: 'Google Analytics - Top Countries'
+description_trans: 'Big Brother - Standalone top countries widget'

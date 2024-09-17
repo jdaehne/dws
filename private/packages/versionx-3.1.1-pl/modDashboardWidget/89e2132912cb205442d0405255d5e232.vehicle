@@ -1,0 +1,19 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'namespace' => 'versionx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '021c32a39f2cb827683bca91cda089e2',
+  'package' => 'modx',
+  'class' => 'modDashboardWidget',
+  'signature' => '89e2132912cb205442d0405255d5e232',
+  'native_key' => NULL,
+  'object' => '{"id":null,"name":"versionx.widget.resources","description":"versionx.widget.resources.desc","type":"file","content":"[[++core_path]]components\\/versionx\\/elements\\/widgets\\/resources.dashboardwidget.php","namespace":"versionx","lexicon":"versionx:default","size":"half","name_trans":"Recent Resource Changes","description_trans":"[VersionX] Shows a grid with the most recent resource changes for all users."}',
+);

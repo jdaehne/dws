@@ -4,6 +4,7 @@ parent_properties: '{"key":"content","width":"100"}'
 input: textarea
 name: Content
 description: ''
+content_desc: null
 sortorder: 20
 icon: richtext
 template: '[[+value]]'

@@ -1,7 +1,7 @@
 id: 14
 name: migxImageUpload
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

@@ -4,6 +4,7 @@ parent_properties: '{"key":"icon","width":"100"}'
 input: dropdown
 name: Icon
 description: ''
+content_desc: null
 sortorder: 5
 icon: paragraph
 template: '[[+value]]'

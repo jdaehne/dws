@@ -4,6 +4,7 @@ parent_properties: '{"key":"visibility","width":"100"}'
 input: dropdown
 name: 'Show Infos on Start'
 description: ''
+content_desc: null
 sortorder: 32
 icon: paragraph
 template: '[[+value]]'

@@ -1,7 +1,7 @@
 id: 19
 name: filterbytag
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

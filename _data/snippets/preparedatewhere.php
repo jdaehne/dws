@@ -1,7 +1,7 @@
 id: 22
 name: preparedatewhere
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

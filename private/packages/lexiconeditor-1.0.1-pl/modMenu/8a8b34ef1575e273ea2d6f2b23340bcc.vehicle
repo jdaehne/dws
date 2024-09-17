@@ -1,0 +1,30 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'lexiconeditor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '937121cea81466e625e8652853a7fbc2',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '8a8b34ef1575e273ea2d6f2b23340bcc',
+  'native_key' => 'lexiconeditor.menu',
+  'object' => '{"text":"lexiconeditor.menu","parent":"components","action":"home","description":"lexiconeditor.menu_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"lexiconeditor"}',
+);

@@ -1,7 +1,7 @@
 id: 16
 name: migxSwitchDetailChunk
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

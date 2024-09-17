@@ -1,0 +1,9 @@
+id: 16
+name: bigbrother.metrics.name
+description: bigbrother.metrics.desc
+type: file
+content: '[[++core_path]]components/bigbrother/elements/widgets/metrics.class.php'
+namespace: bigbrother
+lexicon: 'bigbrother:default'
+name_trans: 'Google Analytics - Key Metrics'
+description_trans: 'Big Brother - Standalone key metrics widget'

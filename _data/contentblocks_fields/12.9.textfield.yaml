@@ -3,6 +3,7 @@ parent: 9
 parent_properties: '{"key":"number","width":"100"}'
 name: Number
 description: ''
+content_desc: null
 sortorder: 12
 icon: paragraph
 template: '[[+value]]'

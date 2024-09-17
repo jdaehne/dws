@@ -1,7 +1,7 @@
 id: 39
 name: migxAutoPublish
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

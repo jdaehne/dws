@@ -2,6 +2,7 @@ id: 50
 parent_properties: null
 name: 'Small Headline'
 description: ''
+content_desc: null
 sortorder: 46
 category: 14
 icon: paragraph

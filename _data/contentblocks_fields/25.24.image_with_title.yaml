@@ -4,6 +4,7 @@ parent_properties: '{"key":"image","width":"100"}'
 input: image_with_title
 name: Image
 description: ''
+content_desc: null
 sortorder: 25
 icon: image
 template: "<img class=\"image-text__image\" src=\"[[+crops.standard.url]]\" alt=\"[[+title:htmlent]]\">\n"

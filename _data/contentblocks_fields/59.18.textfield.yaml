@@ -3,6 +3,7 @@ parent: 18
 parent_properties: '{"key":"galleryId","width":"100"}'
 name: 'Gallery ID'
 description: ''
+content_desc: null
 sortorder: 54
 icon: paragraph
 template: '[[+value]]'

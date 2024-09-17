@@ -9,7 +9,7 @@ properties: null
 /**
  * Use the cbGetFieldContent snippet to get the content of a particular field.
  *
- * For example, this can be useful if you need to get a bit of content 
+ * For example, this can be useful if you need to get a bit of content
  * in a getResources call
  *
  * Example usage:
@@ -18,17 +18,17 @@ properties: null
  *      &field=`13`
  *      &tpl=`fieldTpl`
  * ]]
- * 
+ *
  * [[cbGetFieldContent?
  *      &field=`13`
  *      &fieldSettingFilter=`class==keyImage`
  *      &tpl=`fieldTpl`
  * ]]
- * 
+ *
  * An optional &resource param allows checking for fields on other resources.
  * An option &fieldSettingFilter allows filtering by == or != of a field setting. Only items matching the filter will be returned.
  * An optional &limit param allows limiting the number of matched fields
- * An optional &offset param allows skipping the first n matched fields 
+ * An optional &offset param allows skipping the first n matched fields
  * An optional &tpl param is a chunk name defining a template to use for your field. If not set,
  *   the ContentBlocks template for the field will be used.
  * An optional &wrapTpl param is a chunk name defining a template to use for your field wrapper.
@@ -39,7 +39,7 @@ properties: null
  * @var modX $modx
  * @var array $scriptProperties
  */
- 
+
 
 // Use the current resource if it's available
 $resource = isset($modx->resource) ? $modx->resource : false;
@@ -47,7 +47,7 @@ $resource = isset($modx->resource) ? $modx->resource : false;
 // If we have a requested resource...
 if ($scriptProperties['resource']) {
     // ... check if it is the same one as the current, and only load the requested resource if it isn't
-    if ($resource instanceof modResource) {
+    if ($resource instanceof modResource || $resource instanceof \MODX\Revolution\modResource) {
         if ($scriptProperties['resource'] != $resource->get('id')) {
             $resource = $modx->getObject('modResource', (int)$scriptProperties['resource']);
         }
@@ -72,7 +72,7 @@ if (!$ContentBlocks) {
 $ContentBlocks->loadInputs();
 
 $fld = $modx->getOption('field', $scriptProperties, 0, true);
-$fieldSettingFilter = $modx->getOption('fieldSettingFilter', $scriptProperties, false, true); 
+$fieldSettingFilter = $modx->getOption('fieldSettingFilter', $scriptProperties, false, true);
 $limit = $modx->getOption('limit', $scriptProperties, 0, true);
 $offset = $modx->getOption('offset', $scriptProperties, 0, true);
 $innerLimit = $modx->getOption('innerLimit', $scriptProperties, 0, true);
@@ -95,7 +95,7 @@ else {
     $enabled = $resource->getProperty('_isContentBlocks', 'contentblocks');
     $debug['enabled'] = (bool)$enabled;
     if ($enabled !== true) return;
-    
+
     // Get the field counts
     $counts = $resource->getProperty('fieldcounts', 'contentblocks');
     $debug['counts'] = $counts;
@@ -108,31 +108,31 @@ else {
             $modx->log(modX::LOG_LEVEL_ERROR, '[cbGetFieldContent] Error loading field ' . $fld);
             return;
         }
-        
+
         if($tpl) {
             $chunk = $modx->getObject('modChunk', array('name' => $tpl));
-            if ($chunk instanceof modChunk) {
-                $field->set('template', $chunk->get('content'));
+            if ($chunk instanceof modChunk || $chunk instanceof \MODX\Revolution\modChunk) {
+                $field->set('template', $chunk->getContent());
             }
         }
-        
+
         if($wrapTpl) {
             $chunk = $modx->getObject('modChunk', array('name' => $wrapTpl));
-            if ($chunk instanceof modChunk) {
-                $field->set('wrapper_template', $chunk->get('content'));
+            if ($chunk instanceof modChunk || $chunk instanceof \MODX\Revolution\modChunk) {
+                $field->set('wrapper_template', $chunk->getContent());
             }
         }
-    
+
         $debug['fieldsData'] = $fieldsData;
-        
+
         foreach($fieldsData as $fieldData) {
           	if($fieldData['field'] == $fld) {
                 $fieldsTypeData[] = $fieldData;
           	}
         }
-        
+
         $debug['fieldsTypeData'] = $fieldsTypeData;
-      
+
         if($fieldSettingFilter) {
             $operators = array(
                 '!=' => '!=',
@@ -147,7 +147,7 @@ else {
                         break;
                     }
                 }
-                
+
                 $filter = explode($operator, $filter);
                 $debug[$i]['filter'] = $filter;
                 $setting = array_shift($filter);
@@ -155,7 +155,7 @@ else {
                 $debug[$i]['setting'] = $setting;
                 $debug[$i]['value'] = $value;
                 $debug[$i]['operator'] = $operator;
-                
+
                 foreach($fieldsTypeData as $idx => $fieldData) {
                     if($fieldData['settings'] && array_key_exists($setting, $fieldData['settings'])) {
                         switch($operator) {
@@ -174,7 +174,7 @@ else {
                 }
             }
         }
-        
+
         if($offset) {
             $fieldsTypeData = array_splice($fieldsTypeData, (int)$offset);
             $debug['offset'] = $offset;
@@ -183,7 +183,7 @@ else {
             $fieldsTypeData = array_splice($fieldsTypeData, 0, $limit);
             $debug['limit'] = $limit;
         }
-        
+
         $debug['result'] = $fieldsTypeData;
 
         if ($innerLimit || $innerOffset) {

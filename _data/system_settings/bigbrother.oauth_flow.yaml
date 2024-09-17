@@ -1,0 +1,4 @@
+key: bigbrother.oauth_flow
+value: native
+namespace: bigbrother
+area: Authorization

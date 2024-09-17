@@ -3,6 +3,7 @@ parent_properties: null
 input: richtext
 name: Intro-Text
 description: ''
+content_desc: null
 sortorder: 10
 category: 8
 icon: richtext

@@ -1,7 +1,7 @@
 id: 18
 name: getDayliMIGXrecord
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

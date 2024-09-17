@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'versionx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f2ab300f3fabf66eb1fb6141f2ff9774',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'a662d1e86a2b8bc57a73f351fbb9f68d',
+  'native_key' => 'versionx.enable.templates',
+  'object' => '{"key":"versionx.enable.templates","value":true,"xtype":"modx-combo-boolean","namespace":"versionx","area":"Enable","editedon":1719565585}',
+);

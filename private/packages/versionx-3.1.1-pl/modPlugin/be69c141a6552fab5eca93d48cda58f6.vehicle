@@ -1,0 +1,301 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'ff37ac01ca961dfab937689627acbf25' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnMODXInit","priority":10,"propertyset":0}',
+        'guid' => '6298f0b561e18f8f148fce4590bee854',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnMODXInit',
+        ),
+        'signature' => 'a478960646fd64cf34e3802b03c3f0fe',
+      ),
+      '769f3c5db068f969fd438106b4ff582a' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnDocFormSave","priority":10,"propertyset":0}',
+        'guid' => 'a4795c0e9c7a46bf033a47c01df79c7f',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnDocFormSave',
+        ),
+        'signature' => '0448a42222ab84163ebe5654802946c8',
+      ),
+      '20e750ad09bedc9097a97e84eef48a66' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTempFormSave","priority":10,"propertyset":0}',
+        'guid' => '098a887b5927b72152e7450c5db6bcf9',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTempFormSave',
+        ),
+        'signature' => 'b7c343f0cb1edeab2f09000f80dfda89',
+      ),
+      '06e24d37f73d322243fcae214cadc073' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVFormSave","priority":10,"propertyset":0}',
+        'guid' => '9d9fe5095e5c3f11ae0414ab73458cdf',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVFormSave',
+        ),
+        'signature' => '5ed66acdcc1c0a580f7031f59642146a',
+      ),
+      '36c7f2015be745c23e7cbd1a55b0c218' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnChunkFormSave","priority":10,"propertyset":0}',
+        'guid' => '2977dab5e4ca2fef36dc32ca86c1af92',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnChunkFormSave',
+        ),
+        'signature' => 'e1fd566e4e5b1bd805a22813c24e543e',
+      ),
+      'ec5e07a5b023063487a173301be1b4cb' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSnipFormSave","priority":10,"propertyset":0}',
+        'guid' => '9e481d4556988dd4f1f29dd7c95cd1f4',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSnipFormSave',
+        ),
+        'signature' => 'a59ceff0b95ada27553011a666de58f8',
+      ),
+      'c1ae8c9169efec62862d2fba386974fc' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnPluginFormSave","priority":10,"propertyset":0}',
+        'guid' => '8977a7d3bce819726a85302e9c1eb50f',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnPluginFormSave',
+        ),
+        'signature' => 'bf2b6a88e4070802ae082341c5cbc583',
+      ),
+      '23e69b1c04a686aff5b12d83053ee8a5' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":10,"propertyset":0}',
+        'guid' => 'dc2e4a6db0e3d501af2882b8ed755a9f',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnDocFormPrerender',
+        ),
+        'signature' => '2c55c63efc17b44639e76a46d2ee857d',
+      ),
+      '6e889b007feac317ef00fa9b784cfc4f' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTempFormPrerender","priority":10,"propertyset":0}',
+        'guid' => '03cb13d593e417442f37573cf0946473',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTempFormPrerender',
+        ),
+        'signature' => 'a7bcdd9b1b117136c7492782f2435789',
+      ),
+      '25dbe46be44fd5ba6a82ae6a7ae0ffd6' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVFormPrerender","priority":10,"propertyset":0}',
+        'guid' => '73a4c1592d0bce8235f6166aab717c34',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVFormPrerender',
+        ),
+        'signature' => 'b29c46815284d3d19bd680f16e57f062',
+      ),
+      '4454dd9f884c2ddbd349993f0fb635f3' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnChunkFormPrerender","priority":10,"propertyset":0}',
+        'guid' => 'd276835bfd1ff5e33e2c18134fa5a671',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnChunkFormPrerender',
+        ),
+        'signature' => '82f5ac1339ddfb71c6b02aac663a3977',
+      ),
+      'beb3a8cd4f4356f5ba759b60a0ee8303' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSnipFormPrerender","priority":10,"propertyset":0}',
+        'guid' => '8cf4765326f16f0fd9d727951f3e8a48',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSnipFormPrerender',
+        ),
+        'signature' => '496b5f80ad624cfbd3b8352bef41ec91',
+      ),
+      'df58f1f57c5c09afadb318e244cc1ead' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnPluginFormPrerender","priority":10,"propertyset":0}',
+        'guid' => '4efd041e058675da25932c0edecdca02',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnPluginFormPrerender',
+        ),
+        'signature' => 'd10bda616a7054b19ca643ae6e6ace7e',
+      ),
+      '2f344fa0f97989fc72b3ffc7620ced69' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"FredOnFredResourceSave","priority":10,"propertyset":0}',
+        'guid' => '58f40d9182d66f5c9ff21e39e6e6085c',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'FredOnFredResourceSave',
+        ),
+        'signature' => 'ac77e1fb36a2a9d28c473afb38e432bc',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'versionx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'eca614777ae2ede65e83aa4b70cf7ffa',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'be69c141a6552fab5eca93d48cda58f6',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"VersionX","description":"The plugin that enables VersionX of tracking your content.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * VersionX\\n *\\n * @package versionx\\n *\\n * @var modX $modx\\n * @var VersionX $versionX\\n * @var int $id\\n * @var string $mode\\n * @var modResource $resource\\n * @var modTemplate|\\\\MODX\\\\Revolution\\\\modTemplate $template\\n * @var modTemplateVar $tv\\n * @var modChunk|\\\\MODX\\\\Revolution\\\\modChunk $chunk\\n * @var modSnippet|\\\\MODX\\\\Revolution\\\\modSnippet $snippet\\n * @var modPlugin|\\\\MODX\\\\Revolution\\\\modPluginEvent $plugin\\n*\\/\\n\\nuse modmore\\\\VersionX\\\\Types\\\\Chunk;\\nuse modmore\\\\VersionX\\\\Types\\\\Plugin;\\nuse modmore\\\\VersionX\\\\Types\\\\Snippet;\\nuse modmore\\\\VersionX\\\\Types\\\\TV;\\nuse modmore\\\\VersionX\\\\Types\\\\Resource;\\nuse modmore\\\\VersionX\\\\Types\\\\Template;\\nuse modmore\\\\VersionX\\\\VersionX;\\n\\n$eventName = $modx->event->name;\\n\\n$path = $modx->getOption(\'versionx.core_path\', null, MODX_CORE_PATH . \'components\\/versionx\\/\');\\nrequire $path . \'vendor\\/autoload.php\';\\n\\nif (!$versionX = new VersionX($modx)) {\\n    $modx->log(modX::LOG_LEVEL_ERROR, \'Could not load VersionX\');\\n    return;\\n}\\n\\nswitch($eventName) {\\n    case \'OnDocFormSave\':\\n    case \'FredOnFredResourceSave\':\\n        if ($modx->getOption(\'versionx.enable.resources\',null,true) && $id) {\\n            $type = new Resource($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnTempFormSave\':\\n        if ($modx->getOption(\'versionx.enable.templates\',null,true) && $id) {\\n            $type = new Template($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnTVFormSave\':\\n        if ($modx->getOption(\'versionx.enable.templatevariables\',null,true) && $id) {\\n            $type = new TV($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnChunkFormSave\':\\n        if ($modx->getOption(\'versionx.enable.chunks\',null,true) && $id) {\\n            $type = new Chunk($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnSnipFormSave\':\\n        if ($modx->getOption(\'versionx.enable.snippets\',null,true) && $id) {\\n            $type = new Snippet($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnPluginFormSave\':\\n        if ($modx->getOption(\'versionx.enable.plugins\',null,true) && $id) {\\n            $type = new Plugin($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnBeforeManagerPageInit\': \\/\\/ Required for autoloading\\n    case \'OnManagerPageInit\':\\n    case \'OnHandleRequest\':\\n\\n        break;\\n\\n    \\/* Add tabs *\\/\\n    case \'OnDocFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.resource\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Resource($versionX));\\n        }\\n        break;\\n\\n    case \'OnTempFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.template\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Template($versionX));\\n        }\\n        break;\\n\\n    case \'OnTVFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.templatevariable\',null,true)) {\\n            $versionX->outputVersionsTab($id, new TV($versionX));\\n        }\\n        break;\\n\\n    case \'OnChunkFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.chunk\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Chunk($versionX));\\n        }\\n        break;\\n\\n    case \'OnSnipFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.snippet\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Snippet($versionX));\\n        }\\n        break;\\n\\n    case \'OnPluginFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.plugin\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Plugin($versionX));\\n        }\\n        break;\\n\\n}\\n\\nreturn true;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * VersionX\\n *\\n * @package versionx\\n *\\n * @var modX $modx\\n * @var VersionX $versionX\\n * @var int $id\\n * @var string $mode\\n * @var modResource $resource\\n * @var modTemplate|\\\\MODX\\\\Revolution\\\\modTemplate $template\\n * @var modTemplateVar $tv\\n * @var modChunk|\\\\MODX\\\\Revolution\\\\modChunk $chunk\\n * @var modSnippet|\\\\MODX\\\\Revolution\\\\modSnippet $snippet\\n * @var modPlugin|\\\\MODX\\\\Revolution\\\\modPluginEvent $plugin\\n*\\/\\n\\nuse modmore\\\\VersionX\\\\Types\\\\Chunk;\\nuse modmore\\\\VersionX\\\\Types\\\\Plugin;\\nuse modmore\\\\VersionX\\\\Types\\\\Snippet;\\nuse modmore\\\\VersionX\\\\Types\\\\TV;\\nuse modmore\\\\VersionX\\\\Types\\\\Resource;\\nuse modmore\\\\VersionX\\\\Types\\\\Template;\\nuse modmore\\\\VersionX\\\\VersionX;\\n\\n$eventName = $modx->event->name;\\n\\n$path = $modx->getOption(\'versionx.core_path\', null, MODX_CORE_PATH . \'components\\/versionx\\/\');\\nrequire $path . \'vendor\\/autoload.php\';\\n\\nif (!$versionX = new VersionX($modx)) {\\n    $modx->log(modX::LOG_LEVEL_ERROR, \'Could not load VersionX\');\\n    return;\\n}\\n\\nswitch($eventName) {\\n    case \'OnDocFormSave\':\\n    case \'FredOnFredResourceSave\':\\n        if ($modx->getOption(\'versionx.enable.resources\',null,true) && $id) {\\n            $type = new Resource($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnTempFormSave\':\\n        if ($modx->getOption(\'versionx.enable.templates\',null,true) && $id) {\\n            $type = new Template($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnTVFormSave\':\\n        if ($modx->getOption(\'versionx.enable.templatevariables\',null,true) && $id) {\\n            $type = new TV($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnChunkFormSave\':\\n        if ($modx->getOption(\'versionx.enable.chunks\',null,true) && $id) {\\n            $type = new Chunk($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnSnipFormSave\':\\n        if ($modx->getOption(\'versionx.enable.snippets\',null,true) && $id) {\\n            $type = new Snippet($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnPluginFormSave\':\\n        if ($modx->getOption(\'versionx.enable.plugins\',null,true) && $id) {\\n            $type = new Plugin($versionX);\\n            $result = $versionX->deltas()->createDelta($id, $type);\\n        }\\n        break;\\n\\n    case \'OnBeforeManagerPageInit\': \\/\\/ Required for autoloading\\n    case \'OnManagerPageInit\':\\n    case \'OnHandleRequest\':\\n\\n        break;\\n\\n    \\/* Add tabs *\\/\\n    case \'OnDocFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.resource\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Resource($versionX));\\n        }\\n        break;\\n\\n    case \'OnTempFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.template\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Template($versionX));\\n        }\\n        break;\\n\\n    case \'OnTVFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.templatevariable\',null,true)) {\\n            $versionX->outputVersionsTab($id, new TV($versionX));\\n        }\\n        break;\\n\\n    case \'OnChunkFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.chunk\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Chunk($versionX));\\n        }\\n        break;\\n\\n    case \'OnSnipFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.snippet\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Snippet($versionX));\\n        }\\n        break;\\n\\n    case \'OnPluginFormPrerender\':\\n        if ($mode == modSystemEvent::MODE_UPD && $modx->getOption(\'versionx.formtabs.plugin\',null,true)) {\\n            $versionX->outputVersionsTab($id, new Plugin($versionX));\\n        }\\n        break;\\n\\n}\\n\\nreturn true;"}',
+);

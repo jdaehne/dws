@@ -22,6 +22,7 @@ $_lang['area_phpthumb'] = 'phpThumb';
 $_lang['area_proxy'] = 'พร็อกซี';
 $_lang['area_session'] = 'เซสซันและคุกกี้';
 $_lang['area_static_elements'] = 'Static Elements';
+$_lang['area_static_resources'] = 'Static Resources';
 $_lang['area_lexicon_string'] = 'Lexicon เอนทรี';
 $_lang['area_lexicon_string_msg'] = 'กรอกคีย์ของ lexicon เอนทรีสำหรับพื้นที่แสดงผลที่นี่ ถ้าไม่มี lexicon เอนทรี ก็จะแสดงแค่พื้นที่ของคีย์<br />พื้นที่ คอร์:<ul><li>การรับรอง</li><li>แคช</li><li>ไฟล์</li><li>furls</li><li>เกทเวย์</li><li>ภาษา</li><li>เมเนเจอร์</li><li>เซสซัน</li><li>ไซต์</li><li>ระบบ</li></ul>';
 $_lang['area_site'] = 'ไซต์';
@@ -370,10 +371,10 @@ $_lang['setting_inline_help'] = 'แสดงข้อความช่วย�
 $_lang['setting_inline_help_desc'] = 'ถ้า \'ใช่\' ฟิลด์จะแสดงข้อความช่วยเหลือของพวกมันตรงด้านล่างของฟิลด์ ถ้า \'ไม่\' ฟิลด์ทั้งหมดจะมีความช่วยเหลือแบบทูลทิป';
 
 $_lang['setting_link_tag_scheme'] = 'โครงร่างการสร้าง URL';
-$_lang['setting_link_tag_scheme_desc'] = 'โครงร่างการสร้าง URL สำหรับแท็ก [[~id]] ตัวเลือกที่ใช้งานได้: <a href="http://api.modxcms.com/modx/modX.html#makeUrl">http://api.modxcms.com/modx/modX.html#makeUrl</a>';
+$_lang['setting_link_tag_scheme_desc'] = 'URL generation scheme for tag [[~id]]. Available options <a href="https://docs.modx.com/current/en/extending-modx/modx-class/reference/modx.makeurl" target="_blank">here</a>.';
 
 $_lang['setting_locale'] = 'ท้องถิ่น';
-$_lang['setting_locale_desc'] = 'ตั้งท้องถิ่นสำหรับระบบ ปล่อยว่างไว้เพื่อใช้ค่าปริยาย ดูที่ <a href="http://php.net/setlocale" target="_blank">เอกสารประกอบ PHP</a> สำหรับข้อมูลเพิ่มเติม';
+$_lang['setting_locale_desc'] = 'Set the locale for the system. Leave blank to use the default. See <a href="https://www.php.net/setlocale" target="_blank">the PHP documentation</a> for more information.';
 
 $_lang['setting_lock_ttl'] = 'Lock Time-to-Live';
 $_lang['setting_lock_ttl_desc'] = 'The number of seconds a lock on a Resource will remain for if the user is inactive.';
@@ -414,8 +415,11 @@ $_lang['setting_mail_smtp_pass_desc'] = 'รหัสผ่านที่รั
 $_lang['setting_mail_smtp_port'] = 'พอร์ต SMTP';
 $_lang['setting_mail_smtp_port_desc'] = 'ตั้งค่าปริยายให้กับพอร์ตของ SMTP เซิร์ฟเวอร์';
 
-$_lang['setting_mail_smtp_prefix'] = 'คำนำหน้าการเชื่อมต่อ SMTP';
-$_lang['setting_mail_smtp_prefix_desc'] = 'ตั้งคำนำหน้าการเชื่อมต่อ เหล่าตัวเลือกคือ "" "ssl" หรือ "tls"';
+$_lang['setting_mail_smtp_prefix'] = 'SMTP Encryption';
+$_lang['setting_mail_smtp_prefix_desc'] = 'Sets the encryption of the SMTP connection. Options are "", "ssl" or "tls"';
+
+$_lang['setting_mail_smtp_autotls'] = 'SMTP Auto TLS';
+$_lang['setting_mail_smtp_autotls_desc'] = 'Whether to enable TLS encryption automatically if a server supports it, even if "SMTP Encryption" is not set to "tls"';
 
 $_lang['setting_mail_smtp_single_to'] = 'SMTP Single To';
 $_lang['setting_mail_smtp_single_to_desc'] = 'มีความสามารถในการมีฟิลด์"ถึง" ที่มีกระบวนการเฉพาะแต่ละอีเมล์ แทนที่การส่งถึงที่อยู่';
@@ -500,6 +504,9 @@ $_lang['setting_new_file_permissions_desc'] = 'เมื่อทำการอ
 
 $_lang['setting_new_folder_permissions'] = 'สิทธิ์การใช้งานโฟลเดอร์ใหม่';
 $_lang['setting_new_folder_permissions_desc'] = 'เมื่อทำการอัปโหลดโฟลเดอร์ใหม่ในตัวจัดการไฟล์ซึ่งจะพยายามเปลี่ยนสิทธิ์การใช้งานโฟลเดอร์เหล่านั้นเป็นตามที่คุณป้อนในนี้ อาจจะไม่ทำงานบนบางการติดตั้ง เช่น IIS ซึ่งในกรณีนี้คุณจำเป็นต้องทำการกำหนดสิทธิ์เอง';
+
+$_lang['setting_package_installer_at_top'] = 'Pin Package-Installer at top';
+$_lang['setting_package_installer_at_top_desc'] = 'If enabled, the Installer entry will be pinned to the top of the Extras menu. Otherwise it will be positioned according to its menuindex.';
 
 $_lang['setting_parser_recurse_uncacheable'] = 'Delay Uncacheable Parsing';
 $_lang['setting_parser_recurse_uncacheable_desc'] = 'If disabled, uncacheable elements may have their output cached inside cacheable element content. Disable this ONLY if you are having problems with complex nested parsing which stopped working as expected.';
@@ -668,6 +675,9 @@ $_lang['setting_session_cookie_secure_desc'] = 'เปิดการใช้�
 $_lang['setting_session_cookie_httponly'] = 'Session Cookie HttpOnly';
 $_lang['setting_session_cookie_httponly_desc'] = 'Use this setting to set the HttpOnly flag on session cookies.';
 
+$_lang['setting_session_cookie_samesite'] = 'Session Cookie Samesite';
+$_lang['setting_session_cookie_samesite_desc'] = 'Choose Lax or Strict.';
+
 $_lang['setting_session_gc_maxlifetime'] = 'Session Garbage Collector Max Lifetime';
 $_lang['setting_session_gc_maxlifetime_desc'] = 'อนุญาตการปรับแต่งของ session.gc_maxlifetime ของการตั้งค่า PHP ini เมื่อใช้ \'modSessionHandler\'';
 
@@ -739,6 +749,12 @@ $_lang['setting_static_elements_default_category_desc'] = 'Specify a default cat
 $_lang['setting_static_elements_basepath'] = 'Static elements basepath';
 $_lang['setting_static_elements_basepath_desc'] = 'Basepath of where to store the static elements files.';
 
+$_lang['setting_resource_static_allow_absolute'] = 'Allow absolute static resource path';
+$_lang['setting_resource_static_allow_absolute_desc'] = 'This setting enables users to enter a fully qualified absolute path to any readable file on the server as the content of a static resource. Important: enabling this setting may be considered a significant security risk! It\'s strongly recommended to keep this setting disabled, unless you fully trust every single manager user.';
+
+$_lang['setting_resource_static_path'] = 'Static resource base path';
+$_lang['setting_resource_static_path_desc'] = 'When resource_static_allow_absolute is disabled, static resources are restricted to be within the absolute path provided here.  Important: setting this too wide may allow users to read files they shouldn\'t! It is strongly recommended to limit users to a specific directory such as {core_path}static/ or {assets_path} with this setting.';
+
 $_lang['setting_strip_image_paths'] = 'เขียนเส้นทางเบราว์เซอร์ใหม่หรือไม่?';
 $_lang['setting_strip_image_paths_desc'] = 'ถ้าตั้งเป็น \'ไม่\' MODX จะเขียนไฟล์เบราว์เซอร์ของรีซอร์สบน src (รูปภาพ ไฟล์ แฟลช และอื่นๆ) เป็น URL สัมพัทธ์ โดย URL สัมพัทธ์ จะเป็นประโยชน์ถ้าคุณต้องการย้ายการติดตั้ง MODX เช่น จากเว็บไซต์การแสดงไปเป็นเว็บไซต์การผลิต ถ้าคุณไม่เข้าใจว่าหมายถึงอะไร จะเป็นผลดีที่คุณจะปล่อยให้มันถูกตั้งเป็น \'ใช่\'';
 
@@ -751,6 +767,9 @@ $_lang['setting_syncsite_default_err'] = 'Please state whether or not you want t
 
 $_lang['setting_topmenu_show_descriptions'] = 'แสดงคำอธิยบายในท็อปเมนู';
 $_lang['setting_topmenu_show_descriptions_desc'] = 'ถ้าตั้งเป็น \'ไม่\' MODX จะซ่อนคำอธิบายของไอเท็มของท็อปเมนูในส่วนของเมเนเจอร์';
+
+$_lang['setting_topmenu_subitems_max'] = 'Maximum items in the drop-down lists of the top menu bar';
+$_lang['setting_topmenu_subitems_max_desc'] = 'The maximum number of items displayed in the drop-down lists of the top menu bar. The remaining items will be hidden in the \'...\' item.';
 
 $_lang['setting_tree_default_sort'] = 'ฟิลด์จัดเรียงปริยายของแผนผังรีซอร์ส';
 $_lang['setting_tree_default_sort_desc'] = 'ฟิลด์จัดเรียงปริยายสำหรับแผนผังรีซอร์สเมื่อเรียกใช้เมเนเจอร์';
@@ -861,3 +880,6 @@ $_lang['setting_error_log_filename_desc'] = 'Customize the filename of the MODX 
 
 $_lang['setting_error_log_filepath'] = 'Error log path';
 $_lang['setting_error_log_filepath_desc'] = 'Optionally set a absolute path the a custom error log location. You might use placehodlers like {cache_path}.';
+
+$_lang['static_elements_html_extension'] = 'Static elements html extension';
+$_lang['static_elements_html_extension_desc'] = 'The extension for files used by static elements with HTML content.';

@@ -3,6 +3,7 @@ parent: 33
 parent_properties: '{"key":"mail","width":"100"}'
 name: E-mail
 description: ''
+content_desc: null
 sortorder: 38
 icon: paragraph
 template: '[[+value]]'

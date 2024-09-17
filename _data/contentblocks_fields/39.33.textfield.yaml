@@ -3,6 +3,7 @@ parent: 33
 parent_properties: '{"key":"fax","width":"100"}'
 name: Fax
 description: ''
+content_desc: null
 sortorder: 37
 icon: paragraph
 template: '[[+value]]'

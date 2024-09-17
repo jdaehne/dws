@@ -1,7 +1,7 @@
 id: 12
 name: migxLoopCollection
 category: MIGX
-properties: ''
+properties: 'a:0:{}'
 
 -----
 

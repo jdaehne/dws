@@ -816,10 +816,11 @@ class modTemplateVar extends modElement {
                     if ($modx->resource && $modx->resource instanceof modResource) {
                         $dbtags = $modx->resource->toArray();
                     }
-                    $dbtags['DBASE'] = $this->xpdo->getOption('dbname');
-                    $dbtags['PREFIX'] = $this->xpdo->getOption('table_prefix');
+                    $dbtags['DBASE'] = $dbtags['+dbname'] = $this->xpdo->getOption('dbname');
+                    $dbtags['PREFIX'] = $dbtags['+table_prefix'] = $this->xpdo->getOption('table_prefix');
                     foreach($dbtags as $key => $pValue) {
-                        $param = str_replace('[[+'.$key.']]', $pValue, $param);
+                        if (!is_scalar($pValue)) continue;
+                        $param = str_replace('[[+'.$key.']]', (string)$pValue, $param);
                     }
                     $stmt = $this->xpdo->query('SELECT '.$param);
                     if ($stmt && $stmt instanceof PDOStatement) {
@@ -989,9 +990,9 @@ class modTemplateVar extends modElement {
         $enabled = ($catEnabled || $rgEnabled);
         if ($enabled) {
             if (empty($this->_policies) || !isset($this->_policies[$context])) {
+                $policyTable = $this->xpdo->getTableName('modAccessPolicy');
                 if ($rgEnabled) {
                     $accessTable = $this->xpdo->getTableName('modAccessResourceGroup');
-                    $policyTable = $this->xpdo->getTableName('modAccessPolicy');
                     $resourceGroupTable = $this->xpdo->getTableName('modTemplateVarResourceGroup');
                     $sql = "SELECT Acl.target, Acl.principal, Acl.authority, Acl.policy, Policy.data FROM {$accessTable} Acl " .
                             "LEFT JOIN {$policyTable} Policy ON Policy.id = Acl.policy " .

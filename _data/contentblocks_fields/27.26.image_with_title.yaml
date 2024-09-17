@@ -4,6 +4,7 @@ parent_properties: '{"key":"logo","width":"100"}'
 input: image_with_title
 name: Logo
 description: ''
+content_desc: null
 sortorder: 1
 icon: image
 template: "<img src=\"[[+crops.standard.url]]\" alt=\"[[+title:htmlent]]\" class=\"logoCard__image\">\n"

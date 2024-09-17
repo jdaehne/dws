@@ -3,6 +3,7 @@ parent_properties: null
 input: file
 name: Video
 description: ''
+content_desc: null
 sortorder: 19
 category: 13
 icon: attachment

@@ -3,6 +3,7 @@ parent_properties: null
 input: repeater
 name: Accordion
 description: ''
+content_desc: null
 sortorder: 11
 category: 8
 icon: chunk_A

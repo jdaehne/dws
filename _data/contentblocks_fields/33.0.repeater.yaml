@@ -3,6 +3,7 @@ parent_properties: null
 input: repeater
 name: Locations
 description: ''
+content_desc: null
 sortorder: 17
 category: 11
 icon: chunk_A

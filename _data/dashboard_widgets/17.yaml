@@ -1,0 +1,9 @@
+id: 17
+name: bigbrother.acquisition.name
+description: bigbrother.acquisition.desc
+type: file
+content: '[[++core_path]]components/bigbrother/elements/widgets/acquisition.class.php'
+namespace: bigbrother
+lexicon: 'bigbrother:default'
+name_trans: 'Google Analytics - Acquisition'
+description_trans: 'Big Brother - Standalone acquisition widget'

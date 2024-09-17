@@ -1,0 +1,171 @@
+<?php return array (
+  'preserve_keys' => true,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Permissions' => 
+    array (
+      '4523d20d9c3b5c022f908d0410c75d8b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_configurator","description":"redactor.permission.configurator","value":1}',
+        'guid' => '10fcbcb1dc7fd11757ecd8de3835e2d3',
+        'native_key' => NULL,
+        'signature' => 'a911e8c37321e2f39f76078bb99e10b5',
+      ),
+      '03a7b8651bd8400d4d6ea33625b09310' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_sets_view","description":"redactor.permission.sets_view","value":1}',
+        'guid' => 'a92aae9759499f8f497b5d113f783537',
+        'native_key' => NULL,
+        'signature' => 'd94d243efb1ffd0e5a08377a7fc6a572',
+      ),
+      'e3ddb72b457ebe39f309a99c1f9e480f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_sets_create","description":"redactor.permission.sets_create","value":1}',
+        'guid' => 'f0e8e77c245031d4154c142265e6a07e',
+        'native_key' => NULL,
+        'signature' => 'f5f582e6c92dabf7633e8cf6d15a0ecd',
+      ),
+      '9472e22bd4289afe086e988d1dfa6469' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_sets_save","description":"redactor.permission.sets_save","value":1}',
+        'guid' => '876bbc8b5e86da961f86bf90cbedaab7',
+        'native_key' => NULL,
+        'signature' => '7aaac5ffa70482519e791bf2b6974ed3',
+      ),
+      'd230fb16a3af205dd101c6fc78df8737' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_sets_export","description":"redactor.permission.sets_export","value":1}',
+        'guid' => '770947b0269d2daf73df31f8ba48cc2e',
+        'native_key' => NULL,
+        'signature' => 'e3d9d80bd4462dc1c3a015feb8f4139d',
+      ),
+      'a7af42cc20ca1ed0d3dd89991ba745ee' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_sets_import","description":"redactor.permission.sets_import","value":1}',
+        'guid' => '2135a5c3b33bb5dfc8791ba3794c157b',
+        'native_key' => NULL,
+        'signature' => 'b8b7fe4970db7f3d033735f3db86cc58',
+      ),
+      '2e766ccf8de13bfc5951883b34a016f3' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPermission',
+        'object' => '{"id":null,"template":0,"name":"redactor_sets_delete","description":"redactor.permission.sets_delete","value":1}',
+        'guid' => '1c5e7697180d1d97cc8257ff21ed6f93',
+        'native_key' => NULL,
+        'signature' => 'c32b3f145f4c73f19646c7f88b061d7f',
+      ),
+    ),
+    'Policies' => 
+    array (
+      'd22e20a2870989e9d7c838754f9bcda1' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'template',
+          1 => 'name',
+        ),
+        'class' => 'modAccessPolicy',
+        'object' => '{"id":null,"name":"Redactor Full Access","description":"Access Policy for Redactor that gives full access to the configurator. Overwritten on upgrade.","parent":0,"template":0,"class":"","data":"{\\"redactor_configurator\\":true,\\"redactor_sets_view\\":true,\\"redactor_sets_create\\":true,\\"redactor_sets_save\\":true,\\"redactor_sets_export\\":true,\\"redactor_sets_import\\":true,\\"redactor_sets_delete\\":true}","lexicon":"redactor:permissions"}',
+        'guid' => '884fd15ddb5cdb149180890d4d334313',
+        'native_key' => NULL,
+        'signature' => '3ad3a7509589549059c27633f6a01360',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Permissions' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'template',
+        1 => 'name',
+      ),
+    ),
+    'Policies' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'template',
+        1 => 'name',
+      ),
+    ),
+  ),
+  'namespace' => 'redactor',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3c0d03d776006603c93d865bed2a4ded',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplate',
+  'signature' => 'e6e58dc1840c3638de628b40282e5a00',
+  'native_key' => NULL,
+  'object' => '{"id":null,"template_group":1,"name":"RedactorTemplate","description":"Policy Template for access to the Redactor configurator.","lexicon":"redactor:permissions"}',
+);

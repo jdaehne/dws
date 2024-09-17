@@ -22,6 +22,7 @@ $_lang['area_phpthumb'] = 'phpThumb';
 $_lang['area_proxy'] = 'Vekil Sunucu';
 $_lang['area_session'] = 'Oturum ve Çerez';
 $_lang['area_static_elements'] = 'Static Elements';
+$_lang['area_static_resources'] = 'Static Resources';
 $_lang['area_lexicon_string'] = 'Alan Veri Sözlüğü Girişi';
 $_lang['area_lexicon_string_msg'] = 'Buradaki alan için veri sözlüğü girişi anahtarını girin. Eğer veri sözlüğü girişi yoksa, sadece alan anahtarını görüntüleyecek.<br />Esas Alanlar: kimlik doğrulama, önbellekleme, dosya, toplamalar, ağ geçidi, dil, yönetici, oturum, site, sistem';
 $_lang['area_site'] = 'Site';
@@ -52,7 +53,7 @@ $_lang['settings_after_install'] = 'Bu yeni bir kurulum olduğu için bu ayarlar
 $_lang['settings_desc'] = 'Here you can set general preferences and configuration settings for the MODX manager interface, as well as how your MODX site runs. <b>Each setting will be available via the [[++key]] placeholder.</b><br />Double-click on the value column for the setting you\'d like to edit to dynamically edit via the grid, or right-click on a setting for more options. You can also click the "+" sign for a description of the setting.';
 $_lang['settings_furls'] = 'Kullanıcı Dostu URLler';
 $_lang['settings_misc'] = 'Diğer';
-$_lang['settings_site'] = 'Site';
+$_lang['settings_site'] = 'Alan';
 $_lang['settings_ui'] = 'Arayüz &amp; Özellikleri';
 $_lang['settings_users'] = 'Kullanıcı';
 $_lang['system_settings'] = 'Sistem Ayarları';
@@ -239,7 +240,7 @@ $_lang['setting_default_duplicate_publish_option_desc'] = 'bir kaynağı çogalt
 $_lang['setting_default_media_source'] = 'Varsayılan Medya kaynağı';
 $_lang['setting_default_media_source_desc'] = 'Yüklemek için varsayılan Medya Kaynağı.';
 
-$_lang['setting_default_media_source_type'] = 'Default Media Source Type';
+$_lang['setting_default_media_source_type'] = 'Varsayılan Medya Kaynağı Türü';
 $_lang['setting_default_media_source_type_desc'] = 'The default selected Media Source Type when creating a new Media Source.';
 
 $_lang['setting_default_template'] = 'Varsayılan şablon';
@@ -370,10 +371,10 @@ $_lang['setting_inline_help'] = 'Alanlar için Satır İçi Yardım Metnini Gör
 $_lang['setting_inline_help_desc'] = 'Eğer \'Evet\'se, alanlar yardım metnini doğrudan alanın altında görüntüler. \'Hayır\' ise, tüm alanlarda araç ipucu tabanlı yardım alacaksınız.';
 
 $_lang['setting_link_tag_scheme'] = 'URL Oluşturma Şeması';
-$_lang['setting_link_tag_scheme_desc'] = 'Etiket için [[~ id]] URL oluşturma şeması. Mevcut seçenekler<a href="http://api.modx.com/revolution/2.2/db_core_model_modx_modx.class.html#\modX::makeUrl()" target="_blank">işte</a>.';
+$_lang['setting_link_tag_scheme_desc'] = 'URL generation scheme for tag [[~id]]. Available options <a href="https://docs.modx.com/current/en/extending-modx/modx-class/reference/modx.makeurl" target="_blank">here</a>.';
 
 $_lang['setting_locale'] = 'Yerel';
-$_lang['setting_locale_desc'] = 'Sistem için yerel ayar ayarla. Varsayılan olarak kullanmak için boş bırakın. Daha fazla bilgi için <a href="http://php.net/setlocale" target="_blank">PHP belgelerine</a> bakın.';
+$_lang['setting_locale_desc'] = 'Set the locale for the system. Leave blank to use the default. See <a href="https://www.php.net/setlocale" target="_blank">the PHP documentation</a> for more information.';
 
 $_lang['setting_lock_ttl'] = 'Yaşam için kilit süresi';
 $_lang['setting_lock_ttl_desc'] = 'Kullanıcı etkin olmadığında, bir Kaynaktaki bir kilitin kalacağı saniye sayısı.';
@@ -414,8 +415,11 @@ $_lang['setting_mail_smtp_pass_desc'] = 'SMTP\'ye karşı doğrulama için parol
 $_lang['setting_mail_smtp_port'] = 'SMTP bağlantı noktası';
 $_lang['setting_mail_smtp_port_desc'] = 'Varsayılam SMTP sunucu bağlantı noktasını ayarlar.';
 
-$_lang['setting_mail_smtp_prefix'] = 'SMTP Bağlantısı Öneki';
-$_lang['setting_mail_smtp_prefix_desc'] = 'Bağlantı önekini ayarlar. Seçenekler "", "ssl ya da "tls"dir';
+$_lang['setting_mail_smtp_prefix'] = 'SMTP Encryption';
+$_lang['setting_mail_smtp_prefix_desc'] = 'Sets the encryption of the SMTP connection. Options are "", "ssl" or "tls"';
+
+$_lang['setting_mail_smtp_autotls'] = 'SMTP Auto TLS';
+$_lang['setting_mail_smtp_autotls_desc'] = 'Whether to enable TLS encryption automatically if a server supports it, even if "SMTP Encryption" is not set to "tls"';
 
 $_lang['setting_mail_smtp_single_to'] = 'SMTP Tek';
 $_lang['setting_mail_smtp_single_to_desc'] = 'Tüm TO adreslere göndermek yerine, bireysel TO e-postaları işleme alan için yeteneği sağlar.';
@@ -500,6 +504,9 @@ $_lang['setting_new_file_permissions_desc'] = 'dosya yöneticisnde yeni bir dosy
 
 $_lang['setting_new_folder_permissions'] = 'Yeni Klasör İzinleri';
 $_lang['setting_new_folder_permissions_desc'] = 'Dosya Yöneticisi\'nde yeni bir klasör oluştururken Dosya Yöneticisi, klasör izinlerini bu ayarda girilenlere değiştirmeye çalışacaktır. Bu, IIS gibi bazı kurulumlarda çalışmayabilir, bu durumda izinleri manuel olarak değiştirmeniz gerekecektir.';
+
+$_lang['setting_package_installer_at_top'] = 'Pin Package-Installer at top';
+$_lang['setting_package_installer_at_top_desc'] = 'If enabled, the Installer entry will be pinned to the top of the Extras menu. Otherwise it will be positioned according to its menuindex.';
 
 $_lang['setting_parser_recurse_uncacheable'] = 'Çözülemeyen Ayrıştırmayı Geciktirme';
 $_lang['setting_parser_recurse_uncacheable_desc'] = 'Devre dışı bırakılırsa, çıkartılamaz öğeler çıktılarını önbellekte önbelleğe alınabilir öğe içeriği içinde olabilir. SADECE, beklendiği gibi çalışmayı durdurdu karmaşık iç içe ayrıştırma ile ilgili sorunlar yaşıyorsanız, bu devre dışı bırakın.';
@@ -670,6 +677,9 @@ $_lang['setting_session_cookie_secure_desc'] = 'Güvenli oturum çerezlerini kul
 $_lang['setting_session_cookie_httponly'] = 'Oturum Çerezi Yalnızca Http';
 $_lang['setting_session_cookie_httponly_desc'] = 'Oturum tanımlama bilgilerinde HttpOnly bayrağını ayarlamak için bu ayarı kullanın.';
 
+$_lang['setting_session_cookie_samesite'] = 'Session Cookie Samesite';
+$_lang['setting_session_cookie_samesite_desc'] = 'Choose Lax or Strict.';
+
 $_lang['setting_session_gc_maxlifetime'] = 'Oturum Çöp Toplayıcısı Maximum Ömrü';
 $_lang['setting_session_gc_maxlifetime_desc'] = 'Oturumun özelleştirmesini sağlar..gc_maxlifetime PHP ini ayarı \'modSessionHandler\'kullanırken.';
 
@@ -741,6 +751,12 @@ $_lang['setting_static_elements_default_category_desc'] = 'Specify a default cat
 $_lang['setting_static_elements_basepath'] = 'Static elements basepath';
 $_lang['setting_static_elements_basepath_desc'] = 'Basepath of where to store the static elements files.';
 
+$_lang['setting_resource_static_allow_absolute'] = 'Allow absolute static resource path';
+$_lang['setting_resource_static_allow_absolute_desc'] = 'This setting enables users to enter a fully qualified absolute path to any readable file on the server as the content of a static resource. Important: enabling this setting may be considered a significant security risk! It\'s strongly recommended to keep this setting disabled, unless you fully trust every single manager user.';
+
+$_lang['setting_resource_static_path'] = 'Static resource base path';
+$_lang['setting_resource_static_path_desc'] = 'When resource_static_allow_absolute is disabled, static resources are restricted to be within the absolute path provided here.  Important: setting this too wide may allow users to read files they shouldn\'t! It is strongly recommended to limit users to a specific directory such as {core_path}static/ or {assets_path} with this setting.';
+
 $_lang['setting_strip_image_paths'] = 'Tarayıcı yollarını yeniden yazın?';
 $_lang['setting_strip_image_paths_desc'] = 'Bu \'Hayır\' olarak ayarlanırsa, MODX dosya tarayıcı kaynak src\'lerini (resimler, dosyalar, flaş vb.) Mutlak URL\'ler olarak yazacaktır. MODX yüklemenizi, örneğin bir hazırlama sitesinden bir üretim sitesine taşımak isterseniz göreceli URL\'ler yardımcı olur. Bunun anlamı hakkında hiçbir fikriniz yoksa, sadece \'Evet\' olarak bırakmak en iyisidir.';
 
@@ -753,6 +769,9 @@ $_lang['setting_syncsite_default_err'] = 'Bir kaynağı varsayılan olarak kayde
 
 $_lang['setting_topmenu_show_descriptions'] = 'Açıklamaları Üst Menüde Göster';
 $_lang['setting_topmenu_show_descriptions_desc'] = '\'Hayır\' olarak ayarlanırsa, MODX yöneticideki en üstteki menü öğelerindeki açıklamaları gizler.';
+
+$_lang['setting_topmenu_subitems_max'] = 'Maximum items in the drop-down lists of the top menu bar';
+$_lang['setting_topmenu_subitems_max_desc'] = 'The maximum number of items displayed in the drop-down lists of the top menu bar. The remaining items will be hidden in the \'...\' item.';
 
 $_lang['setting_tree_default_sort'] = 'Kaynak Ağacı Varsayılan Sıralama Alanı';
 $_lang['setting_tree_default_sort_desc'] = 'Yöneticiyi yüklerken Kaynak ağacı için varsayılan sıralama alanı.';
@@ -863,3 +882,6 @@ $_lang['setting_error_log_filename_desc'] = 'Customize the filename of the MODX 
 
 $_lang['setting_error_log_filepath'] = 'Error log path';
 $_lang['setting_error_log_filepath_desc'] = 'Optionally set a absolute path the a custom error log location. You might use placehodlers like {cache_path}.';
+
+$_lang['static_elements_html_extension'] = 'Static elements html extension';
+$_lang['static_elements_html_extension_desc'] = 'The extension for files used by static elements with HTML content.';

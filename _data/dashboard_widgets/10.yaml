@@ -5,6 +5,5 @@ type: file
 content: '[[++core_path]]components/versionx/elements/widgets/resources.dashboardwidget.php'
 namespace: versionx
 lexicon: 'versionx:default'
-size: full
 name_trans: 'Recent Resource Changes'
-description_trans: '(Part of VersionX) Shows a grid with the most recent resource changes for all users.'
+description_trans: '[VersionX] Shows a grid with the most recent resource changes for all users.'

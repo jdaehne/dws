@@ -4,6 +4,7 @@ parent_properties: '{"key":"image","width":"60"}'
 input: image
 name: Image
 description: ''
+content_desc: null
 sortorder: 53
 icon: heading
 template: '[[+crops.standard.url]]'

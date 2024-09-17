@@ -3,6 +3,7 @@ parent: 33
 parent_properties: '{"key":"location","width":"100"}'
 name: Name
 description: ''
+content_desc: null
 sortorder: 34
 icon: paragraph
 template: '[[+value]]'

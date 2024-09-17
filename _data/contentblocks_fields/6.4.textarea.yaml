@@ -4,6 +4,7 @@ parent_properties: '{"key":"text","width":"100"}'
 input: textarea
 name: Text
 description: ''
+content_desc: null
 sortorder: 6
 icon: paragraph
 template: '[[+value]]'

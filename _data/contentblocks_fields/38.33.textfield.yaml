@@ -3,6 +3,7 @@ parent: 33
 parent_properties: '{"key":"tel","width":"100"}'
 name: Phone
 description: ''
+content_desc: null
 sortorder: 36
 icon: paragraph
 template: '[[+value]]'

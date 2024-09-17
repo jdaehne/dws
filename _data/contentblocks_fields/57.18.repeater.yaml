@@ -4,6 +4,7 @@ parent_properties: '{"key":"gallery","width":"100"}'
 input: repeater
 name: Gallery
 description: ''
+content_desc: null
 sortorder: 55
 icon: chunk_A
 template: '<a class="accordion__slide" data-fancybox="[[+galleryId]]" href="[[+image]]" alt="Gallery [[+galleryId]]"></a>'

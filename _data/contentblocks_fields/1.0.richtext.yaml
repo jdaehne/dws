@@ -3,6 +3,7 @@ parent_properties: ''
 input: richtext
 name: Inhalt
 description: ''
+content_desc: null
 icon: site-cb-exampleicon
 icon_type: custom
 template: '[[+value]]'

@@ -1,0 +1,9 @@
+id: 15
+name: bigbrother.visits.name
+description: bigbrother.visits.desc
+type: file
+content: '[[++core_path]]components/bigbrother/elements/widgets/visitsline.class.php'
+namespace: bigbrother
+lexicon: 'bigbrother:default'
+name_trans: 'Google Analytics - Visits'
+description_trans: 'Big Brother - Standalone visits widget'
